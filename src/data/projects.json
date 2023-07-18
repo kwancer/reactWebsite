@@ -1,0 +1,67 @@
+
+    [
+      {
+        "title": "BinBiotic",
+        "date": "Spring 2023",
+        "text": "The outcome of a 3 month group project during the Human-Centered Design Engineering Module.",
+        "projectText": "Binbiotic - Keeping your waste in the right place. Our data collecting device makes overflowing bins a thing of the past. The state-of-the-art sensors wirelessly deliver precise real-time measurements of how full a bin is to a central server. The live data is then coupled with past readings to predict, using Machine Learning, how long it will take for the bin to overflow and to give the collectors a clear goal of when to respond. The device is coupled with an interactive website with a section dedicated to waste & recycling managers, where they can access features like a collection schedule generator, bin placement optimisation, usage analytics, heatmap and issue warnings. These are all based off the data collected by our device. A separate section of the site is accessible by everyone for an increase in transparency between waste management companies and the public. Anyone can view where the nearest bin is, how full it is and where the waste from it is going.",
+        "links": [{
+          "src": "https://binbiotic-c7371.firebaseapp.com/",
+          "desc": "BinBiotic Website"
+        },
+        {
+          "src": "https://drive.google.com/file/d/1iMb09Aua_NyVBw2G3A4m7tl4fdiX-OYY/preview",
+          "desc": "Feature Overview"
+        }
+      ],    
+        "id": 0,
+        "images": [{
+          "src": "binbioticPoster.jpg",
+          "desc": "BinBiotic Poster"
+        }]
+      },
+      {
+        "title": "Wi-Fi Controlled Race Car",
+        "date": "Summer 2023",
+        "text": "The final lab assesment for my Electronics 1 module.",
+        "projectText": "During this group project, we were given an ESP32 module, some motors and a very limited time to create a working, remotely controlled race car. We had to design and build the car from scratch, including the chassis, and then program the ESP32 to control the motors and receive commands. This was done using microPython and the Wi-FI library. The car was controlled using a web app, which was also designed and built by us. The app was hosted on the ESP32 and could be accessed by any device connected to the same Wi-Fi network.",
+        "links": [],
+        "id": 1,
+        "images":[{
+          "src": "car.JPG",
+          "desc": "The car"
+        }]
+      },
+      {
+        "title": "Bouncer Challenege",
+        "date": "Winter 2023",
+        "text": "The lab in my Solid Mechanics 1 module.",
+        "projectText": "The aim of this project was to predict how far a ball would travel after being dropped from a specified height and bouncing off a surface. We were given a set of balls and a set of surfaces to test them on. We had to measure the coefficient of restitution for each ball and surface combination and then use this to predict the distance travelled by the ball. We were given a set of equations to use to calculate the distance travelled. We then had to compare our predictions to the actual results and calculate the error.",
+        "links": [
+          {"src": "bouncer.pdf",
+          "desc": "Report"}
+        ],
+        "id": 2,
+        "images":[{
+          "src": "bouncer.png",
+          "desc": "The bouncer"
+        }]
+      },
+      {
+        "title": "Materialise Report",
+        "date": "Autumn 2022",
+        "text": "The report for my Materials module.",
+        "projectText": "This report was written as part of my Materials module. The aim of the report was to choose a material for a given application and a given client. We use the CES Granta Edupack software to help us choose the material. We then had to write a report explaining our choice of material and why it was the best choice for the application and client.",
+        "links": [
+          {"src": "materialise.pdf",
+          "desc": "Report"}
+        ],
+        "id": 3,
+        "images":[{
+          "src": "materialise.png",
+          "desc": "Materialise"
+        }]
+      }
+    ]
+    
+      
