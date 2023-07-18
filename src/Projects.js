@@ -9,7 +9,7 @@ import DetailedView from './components/DetailedView.js';
 import CardGroup from 'react-bootstrap/CardGroup';
 
 function Projects() {
-  const [projects, setProjects] = useState(projectsData);
+  const [projects] = useState(projectsData);
   const [selectedProject, setSelectedProject] = useState(null);
   const openDetailedView = (project) => {
     setSelectedProject(project);

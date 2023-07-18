@@ -30,7 +30,7 @@ function DetailedView({ project, goBack }) {
                 {project.links.map((link) => (
                         <>
                         <a href='link.src'><h3>{link.desc}</h3></a>
-                        <iframe src={link.src} width="80%" height="600px" borderradius = "10px" />
+                        <iframe title={link.desc} src={link.src} width="80%" height="600px" borderradius = "10px" />
                         </>
                     ))}
                 <hr></hr>
