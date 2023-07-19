@@ -8,6 +8,9 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import AboutMe from './components/AboutMe';
 import Education from './components/Education';
 import Contact from './components/Contact';
+import Experience from './components/Experience';
+import Other from './components/Other';
+import About from './components/About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,11 +20,12 @@ root.render(
       <Route path="/projects" element={<Projects />}/>
       <Route path="/aboutme" element={<AboutMe />}>
         <Route path="education" element={<Education />} />
-        {/* <Route path="experience" element={<Experience />} />
-        <Route path="other" element={<Other />} /> */}
+        <Route path="experience" element={<Experience />} />
+        <Route path="other" element={<Other />} />
       </Route>
       <Route path="/contact" element={<Contact />} />
-      <Route path="*" element={<h1>404</h1>} />
+      <Route path="/about" element={<About />} />
+      <Route path="*" element={<h1>Sorry, not found! <br></br>Krzysztof </h1>} />
     </Routes>
   </BrowserRouter>,
 );

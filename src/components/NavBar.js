@@ -15,18 +15,19 @@ function NavBar() {
             <Nav.Link href="/projects">Projects</Nav.Link>
             <NavDropdown title="About Me" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/aboutme/education">Education</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/aboutme/experience">
                 Experience
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Other</NavDropdown.Item>
+              <NavDropdown.Item href="/aboutme/other">Other</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/contact">
-                Contact
+              <NavDropdown.Item href="/aboutme">
+                About Me
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">About this website</Nav.Link>
+            <Nav.Link href="/about">About this website</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
