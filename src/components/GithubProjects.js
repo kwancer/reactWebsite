@@ -30,7 +30,7 @@ function GithubProjects() {
       {isLoading ? (
         <Spin />
       ) : (
-        <div style={{ marginLeft: "5%", marginRight: "5%" }}>
+        <div>
           {chunkArray(projects, maxItemsPerGroup).map((group, index) => (
             <CardGroup key={index}>
               {group.map((project) => (

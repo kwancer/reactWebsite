@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import AboutMe from './components/AboutMe';
 import Education from './components/Education';
+import Contact from './components/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,8 @@ root.render(
         {/* <Route path="experience" element={<Experience />} />
         <Route path="other" element={<Other />} /> */}
       </Route>
+      <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<h1>404</h1>} />
     </Routes>
   </BrowserRouter>,
 );

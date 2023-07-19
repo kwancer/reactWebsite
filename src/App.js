@@ -17,6 +17,7 @@ function App() {
         </Col>
         <Col md="auto" style={{margin:"2%"}}>
           <>
+          <br></br>
           <h1>Krzysztof Wancerski</h1>
           <p>Imperial College London</p>
           </>

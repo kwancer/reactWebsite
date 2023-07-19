@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 
 function Tile({project, onClick}) {
   return (
-    <Card style={{borderWidth : "2px" }}>
+    <Card style={{ height:"100%"}}>
       <Card.Img variant="top"  src={project.images[0].src} />
       <Card.Body>
         <Card.Title>{project.title}</Card.Title>
@@ -10,8 +10,10 @@ function Tile({project, onClick}) {
         <Card.Text>
           {project.text}
         </Card.Text>
-        <Card.Link onClick={onClick}>Read More</Card.Link>
       </Card.Body>
+      <Card.Footer>
+      <Card.Link onClick={onClick}>Read More</Card.Link>
+      </Card.Footer>
     </Card>
   );
 }

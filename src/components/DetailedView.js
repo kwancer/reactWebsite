@@ -12,7 +12,7 @@ function DetailedView({ project, goBack }) {
                 <h1>{project.title}</h1>
                 <p>{project.date}</p>
             </Row>
-            <Row>
+            <Row xs={1} md={2}>
                 <Col>
                     <h2>Description</h2>
                     <hr></hr>
@@ -41,7 +41,7 @@ function DetailedView({ project, goBack }) {
                 <Button variant='primary' onClick={goBack} style={{width: "100%", marginBottom: "30px"}}>Go Back</Button>
                 </Col>
             </Row>
-        </Container>        
+        </Container>
       </div>
     );
   }

@@ -61,6 +61,21 @@
           "src": "materialise.png",
           "desc": "Materialise"
         }]
+      },
+      {
+        "title": "Reverse Engineering Report",
+        "date": "Spring 2023",
+        "text": "The report for my Manufacturing module.",
+        "projectText": "This report was written as part of my Manufacturing module. The aim of the report was to reverse engineer a product that we were given and to improve it.", 
+        "links": [
+          {"src": "reverse.pdf",
+          "desc": "Report"}
+        ],
+        "id": 4,
+        "images":[{
+          "src": "reverse.png",
+          "desc": "Reverse Engineering"
+        }]
       }
     ]
     
