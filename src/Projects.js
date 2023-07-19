@@ -35,7 +35,7 @@ function Projects() {
         <h2>Key Projects</h2>
         <p>These are some of my key projects. Click on a project to find out more.</p>
         </Row>
-        <Row xs={2} md={4} style={{marginLeft: "5%", marginRight: "5%", marginTop:"1%"}}>
+        <Row xs={1} md={4} style={{marginLeft: "5%", marginRight: "5%", marginTop:"1%"}}>
         {projects.map((project, index) => (
           <Col key={index}>
               <Tile project={project} key={project.id} onClick={() => openDetailedView(project)} />

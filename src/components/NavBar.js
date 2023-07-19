@@ -7,6 +7,15 @@ function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
+      <Navbar.Brand href="#home">
+            <img
+              alt="Krzysztof Wancerski"
+              src="/me.jpg"
+              width="30"
+              height="30"
+              className="d-inline-block align-top rounded"
+            />
+          </Navbar.Brand>
         <Navbar.Brand href="/">Krzysztof Wancerski</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

@@ -11,15 +11,17 @@ function App() {
     <div className="App">
       <NavBar />
       <Container>
-        <Row className="justify-content-md-center">
-        <Col md="auto" style={{margin:"2%"}}>
-          <Image src="https://i.pinimg.com/236x/05/d1/94/05d1948a0b051439f26a835c33b79823.jpg" rounded />
+        <Row className="justify-content-md-center" style={{marginTop:"1%"}}>
+        <Col md={{ span: 2 }}>
+          <Image src="me.jpg" rounded fluid />
         </Col>
-        <Col md="auto" style={{margin:"2%"}}>
+        </Row>
+        <Row className="justify-content-md-center" >
+        <Col md="auto">
           <>
           <br></br>
           <h1>Krzysztof Wancerski</h1>
-          <p>Imperial College London</p>
+          <p><em>Student @ Imperial College London</em></p>
           </>
         </Col>
       </Row>
@@ -29,10 +31,13 @@ function App() {
         </Col>
       </Row>
       <Row className="justify-content-md-center">
-        <Col md="auto" style={{margin:"2%"}}>
-          <hr></hr>
-          <h2>About this page</h2>
-          <p>This page is a work in progress. I'm using it to learn React, and to showcase some of my projects.</p>
+        <Col md="6">
+          <p>Welcome to my new website! I'm still working on it, so please bear with me.</p>
+          <p>This website is built using React, and is hosted on Netlify. You can find out more about it <a href='/about'>here</a>.
+          I have made a few projects, which you can find on my <a href="/projects">projects page</a>.
+          If you want to know more about me, you can find information on my <a href="/aboutme">about page</a>. It includes things like my education and work history and my skills.
+          My CV is available <a href="/cv">here</a>.
+          Lastly, if you want to get in touch, you can find my contact details <a href="/contact">here</a>.</p>
         </Col>
       </Row>
       </Container>

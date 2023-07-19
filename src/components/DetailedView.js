@@ -8,11 +8,11 @@ function DetailedView({ project, goBack }) {
     return (
       <div>
         <Container>
-            <Row>
+        <Row style={{marginLeft: "5%", marginRight: "5%", marginTop:"1%"}}>
                 <h1>{project.title}</h1>
-                <p>{project.date}</p>
+                <p><em>{project.date}</em></p>
             </Row>
-            <Row xs={1} md={2}>
+            <Row xs={1} md={2} style={{marginLeft: "5%", marginRight: "5%", marginTop:"1%"}}>
                 <Col>
                     <h2>Description</h2>
                     <hr></hr>
@@ -22,8 +22,7 @@ function DetailedView({ project, goBack }) {
                     <SlideShow images={project.images} />
                 </Col>
             </Row>
-            <hr></hr>
-            <Row>
+            <Row style={{marginLeft: "5%", marginRight: "5%", marginTop:"1%"}}>
                 <Col>
                 <h2>Extra Resources</h2>
                 <hr></hr>
@@ -33,15 +32,12 @@ function DetailedView({ project, goBack }) {
                         <iframe title={link.desc} src={link.src} width="80%" height="600px" borderradius = "10px" />
                         </>
                     ))}
-                <hr></hr>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                <Button variant='primary' onClick={goBack} style={{width: "100%", marginBottom: "30px"}}>Go Back</Button>
                 </Col>
             </Row>
         </Container>
+        <div id="button_container">
+        <Button variant='primary' size="lg" onClick={goBack} style={{width: "40%", padding:"1%", borderRadius:"1000px"}}>Back</Button>
+        </div>
       </div>
     );
   }
