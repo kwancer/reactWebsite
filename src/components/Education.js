@@ -4,8 +4,10 @@ import Accordion from 'react-bootstrap/Accordion';
 const Education = () => {
     return (
         <div>
+            <hr></hr>
             <h2>Education</h2>
-            <Accordion defaultActiveKey={['0']} alwaysOpen>
+            <p>Here you can find out more about my education.</p>
+            <Accordion defaultActiveKey={['0']} style={{marginTop:"1%"}} alwaysOpen>
             <Accordion.Item eventKey="0">
                 <Accordion.Header>MEng Design Engineering | Imperial College London | 2022-present</Accordion.Header>
                 <Accordion.Body style={{textAlign: "left"}}>

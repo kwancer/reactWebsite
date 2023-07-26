@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import Experience from './components/Experience';
 import Other from './components/Other';
 import About from './components/About';
+import NavBar from './components/NavBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,7 +26,7 @@ root.render(
       </Route>
       <Route path="/contact" element={<Contact />} />
       <Route path="/about" element={<About />} />
-      <Route path="*" element={<h1>Sorry, not found! <br></br>Krzysztof </h1>} />
+      <Route path="*" element={<><NavBar /><h1 style={{textAlign:"center"}}>404: Sorry, page not found!</h1></>} />
     </Routes>
   </BrowserRouter>,
 );

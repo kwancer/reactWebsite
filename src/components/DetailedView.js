@@ -3,6 +3,7 @@ import SlideShow from './SlideShow.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { IoArrowBack } from 'react-icons/io5';
 
 function DetailedView({ project, goBack }) {
     return (
@@ -36,7 +37,7 @@ function DetailedView({ project, goBack }) {
             </Row>
         </Container>
         <div id="button_container">
-        <Button variant='primary' size="lg" onClick={goBack} style={{width: "40%", padding:"1%", borderRadius:"1000px"}}>Back</Button>
+        <Button variant='primary' size="lg" onClick={goBack} style={{width: "100%", padding:"8%", borderRadius:"1000px"}}><b >Back</b></Button>
         </div>
       </div>
     );
