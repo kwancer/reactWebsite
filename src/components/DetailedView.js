@@ -3,7 +3,6 @@ import SlideShow from './SlideShow.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { IoArrowBack } from 'react-icons/io5';
 
 function DetailedView({ project, goBack }) {
     return (
