@@ -18,9 +18,10 @@ const AboutMe = () => {
             <Row className="justify-content-md-center">
                 <Col md={8}>
             <ButtonGroup aria-label="Basic example" style={{marginTop:"1%", width:"100%"}}>
-            <Button href='/aboutme/education' variant="primary">Education</Button>
-            <Button href='/aboutme/experience' variant="primary">Experience</Button>
-            <Button href='/aboutme/other' variant="primary">Other</Button>
+            <Button href='/aboutme/education' variant="primary"><b>Education</b></Button>
+            <Button href='/aboutme/experience' variant="primary"><b>Experience</b></Button>
+            <Button href='/aboutme/skills' variant="primary"><b>Skills</b></Button>
+            <Button href='/aboutme/awards' variant="primary"><b>Awards</b></Button>
             </ButtonGroup>
             </Col>
             </Row>

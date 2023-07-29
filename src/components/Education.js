@@ -9,7 +9,7 @@ const Education = () => {
             <p>Here you can find out more about my education.</p>
             <Accordion defaultActiveKey={['0']} style={{marginTop:"1%"}} alwaysOpen>
             <Accordion.Item eventKey="0">
-                <Accordion.Header>MEng Design Engineering | Imperial College London | 2022-present</Accordion.Header>
+                <Accordion.Header><b>MEng Design Engineering | Imperial College London | 2022-present</b></Accordion.Header>
                 <Accordion.Body style={{textAlign: "left"}}>
                 Recent modules include:
                 <ul>
@@ -22,7 +22,7 @@ const Education = () => {
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
-                <Accordion.Header>A-levels | Sixth Form College Colchester | 2020-2022</Accordion.Header>
+                <Accordion.Header><b>A-levels | Sixth Form College Colchester | 2020-2022</b></Accordion.Header>
                 <Accordion.Body style={{textAlign: "left"}}>
                 Below are the qualifications gained during my studies at sixth form:
                 <ul>

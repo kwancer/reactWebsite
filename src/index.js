@@ -9,9 +9,10 @@ import AboutMe from './components/AboutMe';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import Experience from './components/Experience';
-import Other from './components/Other';
+import Skills from './components/Skills';
 import About from './components/About';
 import NavBar from './components/NavBar';
+import Awards from './components/Awards';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,7 +23,8 @@ root.render(
       <Route path="/aboutme" element={<AboutMe />}>
         <Route path="education" element={<Education />} />
         <Route path="experience" element={<Experience />} />
-        <Route path="other" element={<Other />} />
+        <Route path="skills" element={<Skills />} />
+        <Route path="awards" element={<Awards />} />
       </Route>
       <Route path="/contact" element={<Contact />} />
       <Route path="/about" element={<About />} />

@@ -27,13 +27,15 @@ function NavBar() {
               <NavDropdown.Item href="/aboutme/experience">
                 Experience
               </NavDropdown.Item>
-              <NavDropdown.Item href="/aboutme/other">Other</NavDropdown.Item>
+              <NavDropdown.Item href="/aboutme/skills">Skills</NavDropdown.Item>
+              <NavDropdown.Item href="/aboutme/awards">Awards</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/aboutme">
                 About Me
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/CV.pdf">See my CV</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="/about">About this website</Nav.Link>

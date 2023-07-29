@@ -15,6 +15,7 @@ const Contact = () => {
             <Row style={{marginLeft: "5%", marginRight: "5%", marginTop:"1%"}}>
                 <Col>
                     <h1>Contact</h1>
+                    <p>Below are some key information on how to find me and reach me.</p>
                 </Col>
             </Row>
             <Row md={2} s={1} style={{marginLeft: "5%", marginRight: "5%"}}>
