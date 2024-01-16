@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -31,14 +32,13 @@ function App() {
         </Col>
       </Row>
       <Row className="justify-content-md-center">
-        <Col md="6">
-          <p>Welcome to my new website! I'm still working on it, so please bear with me.</p>
-          <p>This website is built using React, and is hosted on Netlify. You can find out more about it <a href='/about'>here</a>.
-          I have made a few projects, which you can find on my <a href="/projects">projects page</a>.
-          If you want to know more about me, you can find information on my <a href="/aboutme">about page</a>. It includes things like my education and work history and my skills.
-          My CV is available <a href="/cv">here</a>.
-          Lastly, if you want to get in touch, you can find my contact details <a href="/contact">here</a>.</p>
-        </Col>
+        <Button href='/projects' variant="primary" style={{ fontSize: '20px', margin: '10px', padding: '10px 20px', width: '50%' }}><b>My Portfolio</b></Button>
+      </Row>
+      <Row className="justify-content-md-center">
+        <Button href='/aboutme' variant="primary" style={{ fontSize: '20px', margin: '10px', padding: '10px 20px', width: '50%' }}><b>My Experience</b></Button>
+      </Row>
+      <Row className="justify-content-md-center">
+        <Button href='/contact' variant="primary" style={{ fontSize: '20px', margin: '10px', padding: '10px 20px', width: '50%' }}><b>Get in Touch</b></Button>
       </Row>
       </Container>
       <Footer />

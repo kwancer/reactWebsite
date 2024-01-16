@@ -1,5 +1,26 @@
 
     [
+  
+      {
+        "title": "Black Jack Dealer",
+        "date": "Autumn 2023",
+        "text": "The final project for the Physical Computing module.",
+        "projectText": "",
+        "links": [{
+          "src": "https://youtu.be/Sd-Dzjxv1iA?si=YkWsaMrcFzhoXL3K",
+          "desc": "1 minute video of the outcome of the project"
+        },
+        {
+          "src": "jack.pdf",
+          "desc": "The Project Portfolio."
+        }
+      ],    
+        "id": 0,
+        "images": [{
+          "src": "jack.jpg",
+          "desc": "Black Jack Dealer"
+        }]
+      },
       {
         "title": "BinBiotic",
         "date": "Spring 2023",
@@ -77,6 +98,7 @@
           "desc": "Reverse Engineering"
         }]
       }
+
     ]
     
       
