@@ -26,14 +26,30 @@ function Projects() {
         <DetailedView project={selectedProject} goBack={goBack} />
       ) : (
         <>
+        {/* add a protfolio section here */}
+        <Row style={{ marginLeft: "5%", marginRight: "5%", marginTop: "1%" }}>
+          <h2>Portfolio</h2>
+          <p>Below is my portfolio. You can view it directly on this page or open it in a new tab.</p>
+          <iframe
+            src="path/to/folio.pdf"
+            style={{ width: "100%", height: "500px" }}
+            title="Portfolio"
+          ></iframe>
+          <button
+            onClick={() => window.open("path/to/folio.pdf", "_blank")}
+            style={{ marginTop: "10px" }}
+          >
+            Open Portfolio in New Tab
+          </button>
+        </Row>
         <Row style={{marginLeft: "5%", marginRight: "5%", marginTop:"1%"}}>
         <h1>Projects</h1>
         <p>Below you can find the projects I am most proud of. They are both personal projects and projects I have worked on as part of my degree. In the section above are projects I have added manually with a rich and detailed description and below are projects from my GitHub account which are synced automatically.</p>
         </Row>
         <Row style={{marginLeft: "5%", marginRight: "5%", marginTop:"1%"}}>
         <hr></hr>
-        <h2>Key Projects</h2>
-        <p>These are some of my key projects. Click on a project to find out more.</p>
+        <h2>My Projects in Detail</h2>
+        <p>These are some of my other projects. Click on a project to find out more.</p>
         </Row>
         <Row xs={1} md={4} style={{marginLeft: "5%", marginRight: "5%", marginTop:"1%"}}>
         {projects.map((project, index) => (
