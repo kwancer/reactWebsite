@@ -14,6 +14,7 @@ import Skills from './components/Skills';
 import About from './components/About';
 import NavBar from './components/NavBar';
 import Awards from './components/Awards';
+import Tutoring from './Tutoring';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,6 +33,7 @@ root.render(
       </Route>
       <Route path="/contact" element={<Contact />} />
       <Route path="/about" element={<About />} />
+      <Route path='tutoring' element={<Tutoring />} />
       <Route path="*" element={<><NavBar /><h1 style={{textAlign:"center"}}>404: Sorry, page not found!</h1></>} />
     </Routes>
   </BrowserRouter>,
