@@ -20,6 +20,17 @@ function Projects() {
   const goBack = () => {
     setSelectedProject(null);
   };
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  React.useEffect(() => {
+    if (selectedProject !== null) {
+      setScrollPosition(window.scrollY);
+      window.scrollTo(0, 0);
+    } else {
+      window.scrollTo(0, scrollPosition);
+    }
+  }, [selectedProject, scrollPosition]);
+
   return (
     <div className="App">
       <NavBar />

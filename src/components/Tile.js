@@ -2,8 +2,8 @@ import Card from 'react-bootstrap/Card';
 
 function Tile({project, onClick}) {
   return (
-    <Card style={{ height:"100%"}}>
-      <Card.Img variant="top"  src={project.images[0].src} />
+    <Card style={{ height:"99%"}}>
+      <Card.Img variant="top"  src={process.env.PUBLIC_URL + project.images[0].src} />
       <Card.Body>
         <Card.Title>{project.title}</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">{project.date}</Card.Subtitle>

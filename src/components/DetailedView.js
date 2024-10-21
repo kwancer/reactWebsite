@@ -14,7 +14,8 @@ function DetailedView({ project, goBack }) {
             </Row>
             <Row xs={1} md={2} style={{marginLeft: "5%", marginRight: "5%", marginTop:"1%"}}>
                 <Col>
-                    <h2>Description</h2>
+                    <hr></hr>
+                    <h3>Description</h3>
                     <hr></hr>
                     <p>{project.projectText}</p>
                 </Col>
@@ -24,14 +25,37 @@ function DetailedView({ project, goBack }) {
             </Row>
             <Row style={{marginLeft: "5%", marginRight: "5%", marginTop:"1%"}}>
                 <Col>
-                <h2>Extra Resources</h2>
                 <hr></hr>
-                {project.links.map((link) => (
-                        <>
-                        <a href='link.src'><h3>{link.desc}</h3></a>
-                        <iframe title={link.desc} src={link.src} width="80%" height="600px" borderradius = "10px" />
-                        </>
+                <h3>More Details</h3>
+                <hr></hr>
+                <Row xs={1} md={2}>
+                    {project.links.map((link, index) => (
+                        <Col key={index}>
+                            <div>
+                                <a href={link.src} style={{ textDecoration: 'underline' }}><h4>{link.desc}</h4></a>
+                                {link.src.includes('youtube') ? (
+                                    <iframe 
+                                        title="YouTube video player" 
+                                        src={link.src.replace('watch?v=', 'embed/')} 
+                                        width="100%" 
+                                        height="500px" 
+                                        frameBorder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                        style={{borderRadius: "10px"}} 
+                                    />
+                                ) : (
+                                    <iframe 
+                                        title={link.desc} 
+                                        src={link.src} 
+                                        width="100%" 
+                                        height="500px" 
+                                        style={{borderRadius: "10px"}} 
+                                    />
+                                )}
+                            </div>
+                        </Col>
                     ))}
+                </Row>
                 </Col>
             </Row>
         </Container>
