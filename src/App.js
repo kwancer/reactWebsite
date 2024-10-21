@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
-import { FaUser, FaLink, FaBriefcase, FaTools, FaAward } from 'react-icons/fa';
+import { FaUser, FaLink, FaBriefcase, FaAward } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
