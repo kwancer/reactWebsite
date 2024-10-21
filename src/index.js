@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Projects from './Projects';
+import ProjectsCoding from './ProjectsCoding';
+import ProjectsDE from './ProjectsDE';
 import reportWebVitals from './reportWebVitals';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import AboutMe from './components/AboutMe';
@@ -19,7 +20,10 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/projects" element={<Projects />}/>
+      <Route path="/projects" >
+        <Route path="design-engineering" element={<ProjectsDE />} />
+        <Route path="coding" element={<ProjectsCoding />} />
+      </Route>
       <Route path="/aboutme" element={<AboutMe />}>
         <Route path="education" element={<Education />} />
         <Route path="experience" element={<Experience />} />

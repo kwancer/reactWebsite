@@ -20,8 +20,10 @@ function NavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/projects">Projects</Nav.Link>
+            <NavDropdown title="Projects" id="collasible-nav-dropdown-projects">
+              <NavDropdown.Item href="/projects/design-engineering">Design Engineering</NavDropdown.Item>
+              <NavDropdown.Item href="/projects/coding">Coding</NavDropdown.Item>
+            </NavDropdown>
             <NavDropdown title="About Me" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/aboutme/education">Education</NavDropdown.Item>
               <NavDropdown.Item href="/aboutme/experience">
