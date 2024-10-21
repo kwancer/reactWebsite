@@ -17,12 +17,16 @@
     "id": 0,
     "images": [
       {
-        "src": "jack.jpg",
-        "desc": "Black Jack Dealer"
+        "src": "jack2.jpg",
+        "desc": "Construction"
       },
       {
-        "src": "blackjack_robot.jpg",
-        "desc": "Robot in action"
+        "src": "jack.jpg",
+        "desc": "Gameplay"
+      },
+      {
+        "src": "jack3.jpg",
+        "desc": "Gear Printing"
       }
     ]
   },
@@ -39,10 +43,6 @@
       {
         "src": "https://drive.google.com/file/d/1iMb09Aua_NyVBw2G3A4m7tl4fdiX-OYY/preview",
         "desc": "Feature Overview"
-      },
-      {
-        "src": "binbiotic_demo.jpg",
-        "desc": "Works-like prototype demonstration"
       }
     ],
     "id": 10,
@@ -63,10 +63,6 @@
     "text": "The final lab assessment for my Electronics 1 module.",
     "projectText": "In this group project, we built a Wi-Fi-controlled race car using an ESP32 module. The task involved designing the car's chassis, integrating motors, and programming the ESP32 using microPython for remote control via a custom-built web app hosted on the ESP32.",
     "links": [
-      {
-        "src": "racecar_overview.jpg",
-        "desc": "Race car overview"
-      }
     ],
     "id": 1,
     "images": [
@@ -85,10 +81,6 @@
       {
         "src": "bouncer.pdf",
         "desc": "Report"
-      },
-      {
-        "src": "bouncer_demo.jpg",
-        "desc": "Bouncer demonstration setup"
       }
     ],
     "id": 2,
@@ -108,10 +100,6 @@
       {
         "src": "materialise.pdf",
         "desc": "Report"
-      },
-      {
-        "src": "materialise_material_selection.jpg",
-        "desc": "Material selection process illustration"
       }
     ],
     "id": 3,
@@ -131,10 +119,6 @@
       {
         "src": "reverse.pdf",
         "desc": "Report"
-      },
-      {
-        "src": "reverse_product_analysis.jpg",
-        "desc": "Reverse engineering product analysis"
       }
     ],
     "id": 4,
@@ -152,42 +136,34 @@
     "projectText": "This project involved designing and modeling a pickup truck using SolidWorks and Ansys. The aim was to assess the aerodynamic performance of a new product compared to existing market models like the Ford F150. The simulations and results were validated using hand calculations.",
     "links": [
       {
-        "src": "truckCFD_report.pdf",
+        "src": "truck.pdf",
         "desc": "Detailed report of the CFD analysis"
-      },
-      {
-        "src": "truckCFD_simulation.jpg",
-        "desc": "3D flow trajectories of the truck design"
       }
     ],
     "id": 5,
     "images": [
       {
-        "src": "truckCFD.png",
+        "src": "truck.png",
         "desc": "Truck CFD analysis"
       }
     ]
   },
   {
     "title": "TimeLine",
-    "date": "Autumn 2023",
+    "date": "Summer 2024",
     "text": "A group project for Industrial Design Engineering.",
     "projectText": "TimeLine is a battery-powered hand-operated device designed to help young adults manage time more effectively, addressing issues like hyperfocus and time blindness. The project involved electronics design, programming, and prototyping using components such as an ESP32, E-Ink display, and Neopixel ring. A functional prototype was built, integrating user feedback for improved functionality.",
     "links": [
       {
-        "src": "timeline_overview.pdf",
-        "desc": "Project Overview"
-      },
-      {
-        "src": "timeline_demo.jpg",
+        "src": "https://www.youtube.com/watch?v=uzUE0eZkHto",
         "desc": "Prototype demonstration"
       }
     ],
     "id": 6,
     "images": [
       {
-        "src": "timeline_render.png",
-        "desc": "Final render of the TimeLine device"
+        "src": "timeline.png",
+        "desc": "Timeline Prototype"
       }
     ]
   }

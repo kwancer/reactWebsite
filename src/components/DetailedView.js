@@ -3,30 +3,35 @@ import SlideShow from './SlideShow.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { FaInfoCircle, FaLink } from 'react-icons/fa'; // Importing icons from React Icons
 
 function DetailedView({ project, goBack }) {
     return (
       <div>
         <Container>
-        <Row style={{marginLeft: "5%", marginRight: "5%", marginTop:"1%"}}>
-                <h1>{project.title}</h1>
+        <Row style={{color: "#6c757d", marginLeft: "5%", marginRight: "5%", marginTop: "2%", padding: "5px", backgroundColor: "#ffffff", borderRadius: "10px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
+                <h2 style={{ color: "#007bff", fontWeight: "bold" }}>{project.title}</h2>
                 <p><em>{project.date}</em></p>
             </Row>
-            <Row xs={1} md={2} style={{marginLeft: "5%", marginRight: "5%", marginTop:"1%"}}>
+            <Row xs={1} md={2} style={{color: "#6c757d", marginLeft: "5%", marginRight: "5%", marginTop: "2%", padding: "5px", backgroundColor: "#ffffff", borderRadius: "10px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
                 <Col>
                     <hr></hr>
-                    <h3>Description</h3>
+                    <h3 style={{ color: "#007bff", display: "flex", alignItems: "center", fontWeight: "bold", textAlign: "left" }}>
+                        <FaInfoCircle style={{ marginRight: "10px" }} /> Description
+                    </h3>
                     <hr></hr>
                     <p>{project.projectText}</p>
                 </Col>
-                <Col>
+                <Col style={{height: "500px"}}>
                     <SlideShow images={project.images} />
                 </Col>
             </Row>
             <Row style={{marginLeft: "5%", marginRight: "5%", marginTop:"1%"}}>
                 <Col>
                 <hr></hr>
-                <h3>More Details</h3>
+                <h3 style={{ color: "#007bff", display: "flex", alignItems: "center", fontWeight: "bold", textAlign: "left" }}>
+                    <FaLink style={{ marginRight: "10px" }} /> More Details
+                </h3>
                 <hr></hr>
                 <Row xs={1} md={2}>
                     {project.links.map((link, index) => (

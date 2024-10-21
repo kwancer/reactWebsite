@@ -11,9 +11,9 @@ const Tutoring = () => {
         <div className="App">
             <NavBar />
             <Container style={{ paddingTop: '20px' }}>
-                <Row className="justify-content-md-center">
+                <Row className="justify-content-md-center" style={{ marginLeft: "5%", marginRight: "5%", marginTop: "2%", padding: "5px", backgroundColor: "#ffffff", borderRadius: "10px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
                     <Col md={8}>
-                        <h1 style={{ color: '#007bff' }}>GCSE & A-level Tutoring</h1>
+                        <h1 style={{ color: "#007bff", fontWeight: "bold" }}>GCSE & A-level Tutoring</h1>
                         <p style={{ fontSize: '18px' }}>
                             I offer <b>1:1 tutoring</b> for GCSE and A-level students in <b>Maths, Physics, and Computer Science</b>. I have experience tutoring students of all abilities, from those who are struggling to those who are aiming for top grades. I am also able to offer support with university applications, including personal statement writing and interview preparation.
                         </p>

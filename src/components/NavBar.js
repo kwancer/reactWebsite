@@ -7,11 +7,11 @@ import { FaProjectDiagram, FaEnvelope, FaFileAlt, FaChalkboardTeacher } from 're
 function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
-      <Container>
+      <Container style={{ color: "#007bff", display: "flex", alignItems: "center", fontWeight: "bold" }}>
         <Navbar.Brand href="#home">
           <img
             alt="Krzysztof Wancerski"
-            src="/me.jpg"
+            src="/me.png"
             width="30"
             height="30"
             className="d-inline-block align-top rounded"
@@ -26,7 +26,7 @@ function NavBar() {
               <NavDropdown.Item href="/projects/coding">Coding</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/contact"><FaEnvelope /> Contact</Nav.Link>
-            <Nav.Link href="/CV.pdf"><FaFileAlt /> See my CV</Nav.Link>
+            <Nav.Link href="/CV.pdf"><FaFileAlt />CV</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="/tutoring"><FaChalkboardTeacher /> GCSE & A-Level Tutoring</Nav.Link>
