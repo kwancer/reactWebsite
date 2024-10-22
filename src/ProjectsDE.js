@@ -45,14 +45,14 @@ function Projects() {
             <p style={{color: "#6c757d", textAlign: "left" }}>Below is my Design Engineering portfolio, containing some of the projects I'm most proud of. You can view it directly on this page or open it in a new tab.</p>
             <Col xs={12} md={8} lg={6} style={{ display: "flex", justifyContent: "center", width: "100%" }}>
               <iframe
-                src={process.env.PUBLIC_URL + "/folio.pdf"}
+                src={process.env.PUBLIC_URL + "/folio.pdf#zoom=Fit"}
                 style={{ width: "100%", height: "500px", border: "2px solid #007bff", borderRadius: "10px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}
                 title="Portfolio"
               ></iframe>
             </Col>
             <Col xs={12} md={8} lg={6} style={{ display: "flex", justifyContent: "center", width: "100%" }}>
               <Button
-                onClick={() => window.open(process.env.PUBLIC_URL + "/folio.pdf", "_blank")}
+                onClick={() => window.open(process.env.PUBLIC_URL + "/folio.pdf#zoom=Fit", "_blank")}
                 style={{ marginTop: "10px", width: "100%", fontFamily: "'Cursive', sans-serif", fontSize: "1.2em", backgroundColor: "#007bff", borderColor: "#007bff", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}
               >
                 <FaFolderOpen style={{ marginRight: "10px" }} /> Open Portfolio in New Tab

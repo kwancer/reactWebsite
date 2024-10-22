@@ -18,27 +18,27 @@ function DetailedView({ project, goBack }) {
                     <SlideShow images={project.images} />
                 </Col>
                 <Col>
-                    <hr></hr>
+                    <hr style={{ border: "none" }}></hr>
                     <h3 style={{ color: "#007bff", display: "flex", alignItems: "center", fontWeight: "bold", textAlign: "left" }}>
                         <FaInfoCircle style={{ marginRight: "10px" }} /> Description
                     </h3>
-                    <hr></hr>
-                    <p style={{ textAlign: "justify" }}>{project.projectText}</p>
+                    {/* <hr style={{ border: "none" }}></hr> */}
+                    <p style={{ textAlign: "left" }}>{project.projectText}</p>
                 </Col>
             </Row>
             {project.links.length > 0 && (
                 <Row style={{marginLeft: "5%", marginRight: "5%", marginTop:"1%"}}>
                     <Col>
-                    <hr></hr>
+                    {/* <hr style={{ border: "none" }}></hr> */}
                     <h3 style={{ color: "#007bff", display: "flex", alignItems: "center", fontWeight: "bold", textAlign: "left" }}>
                         <FaLink style={{ marginRight: "10px" }} /> More Details
                     </h3>
-                    <hr></hr>
-                    <Row xs={1} md={project.links.length === 1 ? 1 : 2} style={{ justifyContent: project.links.length === 1 ? 'center' : 'flex-start' }}>
+                    {/* <hr style={{ border: "none" }}></hr> */}
+                    <Row xs={1} md={project.links.length === 1 ? 1 : 2} style={{ justifyContent: 'flex-start' }}>
                         {project.links.map((link, index) => (
                             <Col key={index}>
                                 <div>
-                                    <a href={link.src} style={{ textDecoration: 'underline' }}><h4>{link.desc}</h4></a>
+                                    <a href={link.src} style={{ textDecoration: 'underline' }}><h4 style={{ textAlign: "left" }}>{link.desc}</h4></a>
                                     {link.src.includes('youtube') ? (
                                         <iframe 
                                             title="YouTube video player" 

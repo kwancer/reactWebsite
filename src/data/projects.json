@@ -15,6 +15,18 @@
       {
         "src": "timeline.png",
         "desc": "Timeline Prototype"
+      },
+      {
+        "src": "timeline2.jpg",
+        "desc": "CNC Router used"
+      },
+      {
+        "src": "timeline3.jpg",
+        "desc": "Base-plate"
+      },
+      {
+        "src": "timeline4.jpg",
+        "desc": "Example usage"
       }
     ]
   },
@@ -55,10 +67,6 @@
     "text": "Keeping your waste in the right place.",
     "projectText": "BinBiotic - Keeping your waste in the right place. A data-collecting device with state-of-the-art sensors wirelessly measuring bin fullness and predicting overflow using Machine Learning. The project includes an interactive website offering features like collection schedule generator, bin placement optimization, and more for waste managers, and a public interface for transparency on waste management. A works-like prototype was created using GPS antenna and ultrasonic sensors, connected over GSM to a Firebase server.",
     "links": [
-      {
-        "src": "https://binbiotic-c7371.firebaseapp.com/",
-        "desc": "BinBiotic Website"
-      },
       {
         "src": "https://drive.google.com/file/d/1iMb09Aua_NyVBw2G3A4m7tl4fdiX-OYY/preview",
         "desc": "Feature Overview"
