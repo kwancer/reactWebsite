@@ -37,13 +37,19 @@ function App() {
             </Row>
             <h4 style={{ color: '#17a2b8' }}><FaLink /> Quick Links</h4>
             <Row className="justify-content-md-center">
-              <Button href='/projects/design-engineering' variant="primary" style={{ fontSize: '20px', margin: '10px', padding: '10px 20px', width: '80%' }}><b>Design Engineering Portfolio</b></Button>
+              <Col xs="12" className="d-flex justify-content-center">
+                <Button href='/projects/design-engineering' variant="primary" style={{ fontSize: '20px', margin: '10px', padding: '10px 20px', width: '80%' }}><b>Design Engineering Portfolio</b></Button>
+              </Col>
             </Row>
             <Row className="justify-content-md-center">
-              <Button href='/CV.pdf' variant="primary" style={{ fontSize: '20px', margin: '10px', padding: '10px 20px', width: '80%' }}><b>Current CV</b></Button>
+              <Col xs="12" className="d-flex justify-content-center">
+                <Button href='/CV.pdf' variant="primary" style={{ fontSize: '20px', margin: '10px', padding: '10px 20px', width: '80%' }}><b>Current CV</b></Button>
+              </Col>
             </Row>
             <Row className="justify-content-md-center">
-              <Button href='/contact' variant="primary" style={{ fontSize: '20px', margin: '10px', padding: '10px 20px', width: '80%' }}><b>Get in Touch</b></Button>
+              <Col xs="12" className="d-flex justify-content-center">
+                <Button href='/contact' variant="primary" style={{ fontSize: '20px', margin: '10px', padding: '10px 20px', width: '80%' }}><b>Get in Touch</b></Button>
+              </Col>
             </Row>
           </Col>
           <Col md="6" className="justify-content-md-center" style={{marginTop: "10px"}}>

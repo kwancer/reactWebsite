@@ -1,8 +1,27 @@
 [
   {
+    "title": "TimeLine",
+    "date": "Summer 2024",
+    "text": "A battery-powered hand-operated device designed to help young adults manage time more effectively.",
+    "projectText": "TimeLine is a battery-powered hand-operated device designed to help young adults manage time more effectively, addressing issues like hyperfocus and time blindness. The project involved electronics design, programming, and prototyping using components such as an ESP32, E-Ink display, and Neopixel ring. A functional prototype was built, integrating user feedback for improved functionality.",
+    "links": [
+      {
+        "src": "https://www.youtube.com/watch?v=uzUE0eZkHto",
+        "desc": "Prototype demonstration"
+      }
+    ],
+    "id": 6,
+    "images": [
+      {
+        "src": "timeline.png",
+        "desc": "Timeline Prototype"
+      }
+    ]
+  },
+  {
     "title": "Black Jack Dealer",
     "date": "Autumn 2023",
-    "text": "The final project for the Physical Computing module.",
+    "text": "A fun, interactive, and automatic Black Jack dealer.",
     "projectText": "A fun, interactive, and fully functional robot that allows users to play Black Jack without a human dealer, while still using physical cards. The project involved developing seamless tracking of blackjack gestures, managing power limitations, ensuring reliable card dispensing, and embedding IR & piezo sensors in the table mat.",
     "links": [
       {
@@ -33,7 +52,7 @@
   {
     "title": "BinBiotic",
     "date": "Spring 2023",
-    "text": "The outcome of a 3-month group project during the Human-Centered Design Engineering Module.",
+    "text": "Keeping your waste in the right place.",
     "projectText": "BinBiotic - Keeping your waste in the right place. A data-collecting device with state-of-the-art sensors wirelessly measuring bin fullness and predicting overflow using Machine Learning. The project includes an interactive website offering features like collection schedule generator, bin placement optimization, and more for waste managers, and a public interface for transparency on waste management. A works-like prototype was created using GPS antenna and ultrasonic sensors, connected over GSM to a Firebase server.",
     "links": [
       {
@@ -60,7 +79,7 @@
   {
     "title": "Wi-Fi Controlled Race Car",
     "date": "Summer 2023",
-    "text": "The final lab assessment for my Electronics 1 module.",
+    "text": "A Wi-Fi-controlled car built using an ESP32 module.",
     "projectText": "In this group project, we built a Wi-Fi-controlled race car using an ESP32 module. The task involved designing the car's chassis, integrating motors, and programming the ESP32 using microPython for remote control via a custom-built web app hosted on the ESP32.",
     "links": [
     ],
@@ -75,7 +94,7 @@
   {
     "title": "Bouncer Challenge",
     "date": "Winter 2023",
-    "text": "The lab in my Solid Mechanics 1 module.",
+    "text": "Predicting the travel distance of a bouncing ball.",
     "projectText": "This project involved predicting the travel distance of a ball dropped from a specific height, bouncing off a surface. The calculations were based on measuring the coefficient of restitution for different ball-surface combinations, followed by comparing predictions to real-world measurements.",
     "links": [
       {
@@ -94,7 +113,7 @@
   {
     "title": "Materialise Report",
     "date": "Autumn 2022",
-    "text": "The report for my Materials module.",
+    "text": "Selecting an appropriate material for a given application.",
     "projectText": "A report selecting an appropriate material for a given application using CES Granta Edupack. The report justifies the choice based on client needs and application specifications.",
     "links": [
       {
@@ -113,7 +132,7 @@
   {
     "title": "Reverse Engineering Report",
     "date": "Spring 2023",
-    "text": "The report for my Manufacturing module.",
+    "text": "Analyzing a product and suggesting improvements.",
     "projectText": "A reverse engineering study aimed at analyzing a given product and suggesting improvements. It involved understanding the manufacturing processes used and exploring ways to enhance the product's design.",
     "links": [
       {
@@ -132,7 +151,7 @@
   {
     "title": "Truck CFD",
     "date": "Spring 2023",
-    "text": "A solo project focusing on Computational Fluid Dynamics.",
+    "text": "Analyzing the aerodynamic performance of a self-designed pickup truck.",
     "projectText": "This project involved designing and modeling a pickup truck using SolidWorks and Ansys. The aim was to assess the aerodynamic performance of a new product compared to existing market models like the Ford F150. The simulations and results were validated using hand calculations.",
     "links": [
       {
@@ -145,25 +164,6 @@
       {
         "src": "truck.png",
         "desc": "Truck CFD analysis"
-      }
-    ]
-  },
-  {
-    "title": "TimeLine",
-    "date": "Summer 2024",
-    "text": "A group project for Industrial Design Engineering.",
-    "projectText": "TimeLine is a battery-powered hand-operated device designed to help young adults manage time more effectively, addressing issues like hyperfocus and time blindness. The project involved electronics design, programming, and prototyping using components such as an ESP32, E-Ink display, and Neopixel ring. A functional prototype was built, integrating user feedback for improved functionality.",
-    "links": [
-      {
-        "src": "https://www.youtube.com/watch?v=uzUE0eZkHto",
-        "desc": "Prototype demonstration"
-      }
-    ],
-    "id": 6,
-    "images": [
-      {
-        "src": "timeline.png",
-        "desc": "Timeline Prototype"
       }
     ]
   }

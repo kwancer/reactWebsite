@@ -15,8 +15,9 @@ a:hover {
 #button_container {
   position: fixed;
   bottom: 5%;
-  left: 5%;
+  right: 5%;
   width: 20%;
   text-align: left;
   z-index: 999; /* Adjust the z-index as needed to ensure the button appears above other elements */
+  opacity: 0.9;
 }
