@@ -85,6 +85,33 @@
     ]
   },
   {
+    "title": "FEA",
+    "date": "Spring 2024",
+    "text": "Various Finite Element Analysis projects.",
+    "projectText": "A collection of Finite Element Analysis projects, including a cantilever beam, a truss structure, and a heat sink. The projects ivolved meshing CAD models, setting up the simulations, and analyzing them using Ansys Workbench. The results were compared to theoretical calculations and validated using hand calculations.",
+    "links": [
+    ],
+    "id": 5,
+    "images": [
+      {
+        "src": "fea1.png",
+        "desc": "Propeller deflection"
+      },
+      {
+        "src": "fea2.png",
+        "desc": "Propeller stress"
+      },
+      {
+        "src": "fea3.png",
+        "desc": "Truss structure stress distribution"
+      },
+      {
+        "src": "fea4.png",
+        "desc": "Truss structure deformation"
+      }
+    ]
+  },
+  {
     "title": "Wi-Fi Controlled Race Car",
     "date": "Summer 2023",
     "text": "A Wi-Fi-controlled car built using an ESP32 module.",
