@@ -15,6 +15,10 @@ function DetailedView({ project, goBack }) {
             </Row>
             <Row xs={1} md={2} style={{color: "#6c757d", marginLeft: "5%", marginRight: "5%", padding: "5px", backgroundColor: "#ffffff", borderRadius: "10px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
                 <Col style={{}}>
+                    <hr style={{ border: "none" }}></hr>
+                    <h3 style={{ color: "#007bff", display: "flex", alignItems: "center", fontWeight: "bold", textAlign: "left" }}>
+                        <FaInfoCircle style={{ marginRight: "10px" }} /> Gallery
+                    </h3>
                     <SlideShow images={project.images} />
                 </Col>
                 <Col>

@@ -75,12 +75,20 @@
     "id": 10,
     "images": [
       {
+        "src": "binbioticRender.png",
+        "desc": "BinBiotic"
+      },
+      {
+        "src": "binbioticExploded.png",
+        "desc": "BinBiotic"
+      },
+      {
         "src": "binbioticPoster.jpg",
         "desc": "BinBiotic Poster"
       },
       {
-        "src": "binbiotic_prototype.jpg",
-        "desc": "Mounted prototype inside a bin"
+        "src": "binbioticLaptop.png",
+        "desc": "User Interface"
       }
     ]
   },

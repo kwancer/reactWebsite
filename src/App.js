@@ -32,7 +32,7 @@ function App() {
             <Row className="justify-content-md-center">
               <Col md="10">
                 <h4 style={{ color: '#28a745' }}><FaUser /> Profile</h4>
-                <p>Hi, I'm Krzysztof. I'm a third year student at Imperial College London, studying MEng Design Engineering. I'm interested in the intersection of design and technology, and how we can use technology to improve the world around us.</p>
+                <p>As an engineering student in Imperial, I have worked on projects that lie at the intersection of design, technology and engineering; developing innovative solutions that leverage latest technologies to address real-world problems. These achievements have fueled my passion for using technology to drive positive change in the world.</p>
               </Col>
             </Row>
             <h4 style={{ color: '#17a2b8' }}><FaLink /> Quick Links</h4>
