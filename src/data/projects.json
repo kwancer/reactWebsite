@@ -62,6 +62,21 @@
     ]
   },
   {
+    "title": "E-Haler",
+    "date": "Autumn 2023",
+    "text": "The Sustainable Solution for Asthma Relief.",
+    "projectText": "E-Haler is a sustainable solution for asthma relief, offering a reusable inhaler with a refillable cartridge. The project involved designing a user-friendly, cost-effective, and environmentally friendly inhaler, with a focus on reducing plastic waste. A detailed cost analysis and environmental impact assessment was carried out.",
+    "links": [
+    ],
+    "id": 15,
+    "images": [
+      {
+        "src": "ehaler.png",
+        "desc": "Refill Station"
+      }
+    ]
+  },
+  {
     "title": "BinBiotic",
     "date": "Spring 2023",
     "text": "Keeping your waste in the right place.",
