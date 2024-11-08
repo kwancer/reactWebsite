@@ -48,7 +48,7 @@
     "id": 0,
     "images": [
       {
-        "src": "jack2.jpg",
+        "src": "jack2.png",
         "desc": "Construction"
       },
       {
@@ -116,21 +116,6 @@
       {
         "src": "fea4.png",
         "desc": "Truss structure deformation"
-      }
-    ]
-  },
-  {
-    "title": "Wi-Fi Controlled Race Car",
-    "date": "Summer 2023",
-    "text": "A Wi-Fi-controlled car built using an ESP32 module.",
-    "projectText": "In this group project, we built a Wi-Fi-controlled race car using an ESP32 module. The task involved designing the car's chassis, integrating motors, and programming the ESP32 using microPython for remote control via a custom-built web app hosted on the ESP32.",
-    "links": [
-    ],
-    "id": 1,
-    "images": [
-      {
-        "src": "car.JPG",
-        "desc": "The car"
       }
     ]
   },
