@@ -62,7 +62,7 @@ function App() {
             </p>
             <p style={{ textAlign: 'left' }}><b>Academic Tutor (Self-employed)</b> (2022-present)
               <ul>
-                <li>Taught Mathematics, Computer Science, and Physics to GCSE and A-level students, managing 10+ hours/week.</li>
+                <li>Taught Mathematics, Computer Science, and Physics to GCSE and A-level students, managing extra responsibilities of 10+ hours/week.</li>
               </ul>
             </p>
             <p style={{ textAlign: 'left' }}><b>R&D Intern</b> - Eppendorf Cryotech Ltd. (Jul-Sep 2022)
