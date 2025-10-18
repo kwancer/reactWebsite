@@ -81,7 +81,7 @@ function App() {
             <h4 style={{ color: '#6f42c1' }}><FaAward /> Awards</h4>
             <p style={{ textAlign: 'left' }}><b>Institute of Engineering and Technology Future Talent Award (2022)</b> - receiver of a yearly bursary and IET membership<br></br>
             <b>Dean’s List - Imperial College London (Year 1 & 2) </b>- Ranked in the top 10% of the cohort<br></br>
-            <b>Bronze Medalist </b>- British Physics Olympiad and UK Senior Mathematics Challenge</p>
+            <b>Bronze Awards </b>- British Physics Olympiad and UK Senior Mathematics Challenge</p>
           </Col>
         </Row>
       </Container>
