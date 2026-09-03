@@ -1,0 +1,149 @@
+# Krzysztof (Kris) Wancerski — Portfolio & Dossier
+> Full-Stack, Mobile & AI Design Engineer based in London, UK.
+
+## Contact & Direct Channels
+- **Direct Email**: krzysztofwancerski@gmail.com
+- **LinkedIn Profile**: https://www.linkedin.com/in/kwancerski/
+- **Portfolio Website**: https://wancerski.uk
+- **Featured Projects**: https://wancerski.uk#work
+- **Consulting Services**: https://wancerski.uk#services
+- **Academic Tutoring Portal**: https://wancerski.uk/tutoring
+- **Location**: London, UK (West London)
+- **Timezone**: GMT (UTC+1)
+
+---
+
+## Executive Summary
+First-class MEng graduate in Design Engineering from Imperial College London (ranked #2 in the world in QS World University Rankings). Technical generalist taking complex, undefined challenges from first principles to production software across TypeScript & Vue, Flutter & Dart, and applied Agentic AI. 
+
+Combines rigorous engineering fundamentals with customer-facing product delivery, shipping software across venture-backed healthcare AI, commercial hardware operations (1,000+ devices), and international AI research presentations.
+
+---
+
+## Engineering & Academic Background (Hero Overview)
+- **Design Engineering Background (Imperial College London)**: A fusion of user needs, entrepreneurship, innovation, technology, and software. Suited perfectly for the AI age. Awarded Faculty of Engineering Dean's List for all 4 consecutive undergraduate years (Top 10% of cohort). Ranked #2 globally (QS).
+- **Mobile App & Embedded UI (Tewke Ltd.)**: Flutter for experience in app development, shipping features with customers in real world, leading whole projects and having whole new features end to end.
+- **Full-Stack Systems (Tewke Ltd.)**: Working from a brief, internal company needs, and regulatory requirements, supporting 1,000+ manufacturing devices.
+- **ISF Montreal 2026 (Oral Presentation)**: Delivering a 20-minute presentation on an autonomous agentic AI web app that democratises time-series forecasting for people who otherwise couldn't access advanced predictive modeling.
+
+---
+
+## Featured Production Projects
+
+### 1. AskForecast — Agentic Time-Series Forecasting
+- **URL**: https://askforecast.app
+- **Classification**: Imperial Master's Project / Oral Presentation at ISF Montreal 2026
+- **Headline**: Democratising time-series forecasting via autonomous agentic AI — interactive web app.
+- **Overview**: An interactive web application where users upload complex datasets and describe forecasting goals in natural language to receive automated, calibrated probabilistic predictions with generative reasoning reports.
+- **Key Technical Accomplishments**:
+  - **ISF Montreal 2026 Presentation**: Selected to deliver a 20-minute oral presentation sharing advanced forecasting AI research at the 44th International Symposium on Forecasting.
+  - **Autonomous Agentic Workflow**: Embedded AI agent parses natural language, orchestrates statistical ensembles, calculates prediction intervals, and synthesises diagnostic reports.
+- **Technologies**: Agentic AI, Python, FastAPI, Vue 3, Gemini API, Probabilistic Time-Series Models.
+
+### 2. Yarn Health — Conversational Clinical Voice Companion
+- **URL**: https://yarn.health
+- **Classification**: Conversational Mobile App Health Companion / 15 Real Clinical Users
+- **Headline**: A smart voice & text diary helping chronic patients capture symptoms and prepare for doctor visits.
+- **Overview**: A conversational mobile app and health journal that helps patients capture and structure complex symptoms between clinical appointments via voice and text, producing structured clinical summaries for doctors.
+- **Key Technical Accomplishments**:
+  - **Validated in Real Clinical Testing**: Completed user trials with 15 patients navigating complex chronic health journeys to refine voice interaction latency and summary accuracy.
+  - **Dual-Model Agentic Architecture**: Real-time streaming voice transcription via Whisper for fluid conversational check-ins, coupled with a deep reasoning agent for longitudinal symptom synthesis.
+- **Technologies**: Agentic AI, Flutter, Dart, Nuxt UI, Whisper, Vector Search.
+
+### 3. Mobile Apps & Embedded Touchscreen UI (Tewke Ltd.)
+- **Classification**: Production Hardware Ecosystem / Mobile & Embedded Hardware
+- **Headline**: User-Centred Mobile Apps & Embedded Touchscreen UI.
+- **Overview**: Designing and shipping cross-platform mobile apps and touch-screen embedded device interfaces centered entirely on Flutter and Dart.
+- **Key Technical Accomplishments**:
+  - **Unified Flutter Architecture**: Responsive mobile experiences across iOS and Android alongside dedicated touchscreen embedded hardware controls from a single codebase.
+  - **Local Hardware Telemetry**: Engineered local networking and real-time device synchronisation for fluid, zero-latency smart-home automation.
+- **Technologies**: Flutter, Dart, iOS & Android, Embedded Touchscreen, Device Telemetry.
+
+### 4. Manufacturing & Operations Software for Scaling Hardware (Tewke Ltd.)
+- **Classification**: Internal Operations & Scaling Tooling / 1,000+ Production Devices
+- **Headline**: Manufacturing & Operations Software for Scaling Hardware.
+- **Overview**: Architecting custom full-stack operations and manufacturing software to eliminate manual bottlenecks and facilitate rapid physical scaling.
+- **Key Technical Accomplishments**:
+  - **Supported 1,000+ Production Devices**: Core internal system at Tewke Ltd. managing one-line multi-device assembly with automated parts and inventory deduction, architected and future-proofed for multi-line, multi-user scaling and full auditability.
+  - **Camera Quality Control**: Automated photo validation at key build stages to isolate assembly defects immediately and streamline customer support triage.
+- **Technologies**: TypeScript, Vue.js, Express, PostgreSQL, Drizzle ORM, Docker.
+
+### Imperial Physical Computing & Engineering Archive
+- **Robotics & Embedded Microcontrollers**: Autonomous rover pathfinding, PID motion control, custom PCB design, and C++ firmware.
+- **Fluid Dynamics Simulations**: Finite-element modeling and computational fluid simulations for aerodynamic structures.
+
+---
+
+## Consulting & Product Engineering Services
+
+### Mission & Proposition
+Partnering directly with founders and teams to turn ideas into successful, beautiful products with production-ready code that works and scales.
+
+### Core Engagement Model
+From Undefined Idea to a Shipped, Successful Product: Whether you have an early-stage concept, an evolving business requirement, or an ambitious product vision, Kris takes technical ownership from day one. You get software that looks beautiful, feels intuitive to users, and is engineered with rock-solid, production-ready code that actually works and scales.
+- **Focus on Product Success**: Building what actually matters for your users and your business, moving quickly from first concepts to working software that drives results.
+- **Production-Grade & Scalable**: Writing clean, robust code across TypeScript, Vue, and Flutter that works reliably in production and scales effortlessly as your company grows.
+
+### Deliverables & Commitments
+1. **Beautiful, Polish-First UX**: Thoughtfully designed interfaces that look premium, feel responsive, and build immediate user trust.
+2. **Working, Production-Ready Code**: Software built to work in the real world from day one, backed by scalable architecture and clean code.
+3. **Fast, Collaborative Execution**: Direct partnership with zero bureaucratic bloat, shipping high-quality software into hands quickly.
+
+### Technical Capability Pillars
+- **Agentic & Multi-Modal AI**: Architecting autonomous AI agents, real-time voice streaming with Whisper, and deep reasoning models for complex document and clinical synthesis. (Stack: Agentic AI, Voice AI, LLM Chains, Vector Search).
+- **Full-Stack Web & Backend**: Engineering fast, scalable applications in TypeScript, Vue 3, and Express, backed by clean PostgreSQL schemas and containerised Docker environments. (Stack: TypeScript, Vue 3, PostgreSQL, Express, Docker).
+- **Mobile & Embedded UI**: Delivering high-performance cross-platform mobile apps for iOS and Android alongside responsive touchscreen hardware interfaces in Flutter & Dart. (Stack: Flutter, Dart, iOS & Android, Embedded Hardware).
+
+---
+
+## Experience & Career Trajectory
+
+### 1. Full-Stack Software Engineer — Tewke Ltd.
+- **Tenure**: Apr 2025 – Present (Promoted Aug 2026)
+- **Location**: London, UK | Full-Time
+- **Company URL**: https://tewke.com
+- **Scope**: Technical ownership across internal manufacturing operations, full-stack backend systems, and cross-platform mobile & embedded device features.
+- **Impact**:
+  - Architected core internal operations software managing one-line multi-device assembly with automated parts deduction and camera QC for 1,000+ production devices, future-proofed for multi-line, multi-user scaling and full auditability.
+  - Shipped smart-home mobile application features and touchscreen embedded device interfaces in Flutter and Dart.
+- **Stack**: TypeScript, Vue.js, Flutter, Dart, Express, PostgreSQL, Docker.
+
+### 2. Master of Engineering (MEng), Design Engineering — Imperial College London
+- **Tenure**: 2022 – 2026
+- **Location**: London, UK
+- **Institution URL**: https://www.imperial.ac.uk
+- **Distinction**: First Class trajectory. Awarded Faculty Dean's List for all 4 consecutive undergraduate years (Top 10% of cohort). Imperial College London is ranked #2 in the world (QS).
+
+### 3. Undergraduate Teaching Assistant — Imperial College London
+- **Tenure**: Oct 2023 – Jun 2024
+- **Location**: London, UK
+- **Scope**: Facilitated computing and engineering modules for undergraduate cohorts, conducting hands-on code reviews, hardware debugging, and problem-solving workshops.
+
+### 4. Academic STEM Tutor — Private Practice
+- **Tenure**: Nov 2022 – Present
+- **Location**: West London & Online
+- **Portal**: https://wancerski.uk/tutoring
+- **Scope**: Over 4 years delivering bespoke 1:1 tuition in Mathematics, Physics, and Computer Science for GCSE and A-level candidates targeting top grades (A and A*).
+
+---
+
+## Academic Honours & Distinctions
+
+### 1. Dean’s List (All 4 Consecutive Years)
+- **Awarding Body**: Imperial College London, Faculty of Engineering
+- **URL**: https://www.imperial.ac.uk/engineering/study/undergraduate/prizes/
+- **Distinction**: Top 10% Cohort • All 4 Years
+- **Detail**: Awarded every single academic year of university at Imperial College London (#2 university globally in QS World Rankings). The Dean’s List recognises undergraduate engineers in the top 10% of their cohort who achieved a continuous first-class standard (70%+) across all four years.
+
+### 2. IET Future Talent Award
+- **Awarding Body**: Institution of Engineering and Technology (IET)
+- **URL**: https://www.theiet.org/impact-society/awards-scholarships/future-talent-awards/
+- **Distinction**: National Engineering Scholarship
+- **Detail**: Prestigious national engineering scholarship and multi-year bursary supported by the David Family Foundation, awarded to exceptional engineering students recognised for outstanding academic promise, technical innovation, and future engineering leadership.
+
+---
+
+## Technical Stack & Production Tooling Matrix
+- **Languages**: TypeScript, Python, Dart, JavaScript, Vue.js, C++, SQL, Bash
+- **Frameworks & AI**: Vue 3 / Nuxt, Flutter (BLoC state management), FastAPI, Express, Drizzle ORM, React
+- **Systems & Infrastructure**: PostgreSQL, Docker, Supabase, Linux CLI, Git & GitLab, CI/CD pipelines

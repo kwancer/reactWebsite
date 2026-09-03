@@ -1,0 +1,161 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { ArrowUpRight } from '@phosphor-icons/react';
+
+export default function Experience() {
+  return (
+    <section id="experience" className="py-24 border-b border-white/[0.08]">
+      <div className="max-w-6xl mx-auto px-6">
+        
+        <div className="mb-14">
+          <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight mb-3">
+            Experience & Education
+          </h2>
+          <p className="text-base text-zinc-300 max-w-[65ch] leading-relaxed">
+            Professional trajectory across production software engineering, world-leading university education, and academic mentorship.
+          </p>
+        </div>
+
+        <div className="border-t border-white/[0.08] divide-y divide-white/[0.08]">
+          
+          {/* 1. Tewke Ltd. */}
+          <div className="py-8 sm:py-10 grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-8 items-start">
+            <div className="lg:col-span-3 text-xs font-mono text-zinc-400">
+              <span className="text-zinc-200 font-medium block">Apr 2025 – Present</span>
+              <span className="text-zinc-500 block mt-0.5">London, UK</span>
+              <span className="text-zinc-400 block mt-1 text-[11px]">Full-Time (Promoted Aug 2026)</span>
+            </div>
+
+            <div className="lg:col-span-9">
+              <div className="flex flex-wrap items-center gap-2 mb-2">
+                <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
+                  Full-stack Software Engineer
+                </h3>
+                <a
+                  href="https://tewke.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-press inline-flex items-center gap-1 text-xs font-mono px-2.5 py-0.5 rounded bg-zinc-900 text-zinc-300 hover:text-white border border-white/10"
+                >
+                  <span>Tewke Ltd.</span>
+                  <ArrowUpRight size={11} weight="bold" />
+                </a>
+              </div>
+
+              <p className="text-sm text-zinc-300 mb-4 leading-relaxed max-w-[65ch]">
+                Technical ownership across internal manufacturing operations, full-stack backend systems, and cross-platform mobile & embedded device features.
+              </p>
+
+              <div className="space-y-2 mb-5 text-xs sm:text-sm text-zinc-400 border-l border-white/[0.1] pl-4">
+                <div>
+                  <strong className="text-zinc-200 font-medium">1,000+ Devices in Production:</strong> Architected the core internal operations software managing one-line multi-device assembly with automated parts deduction and camera QC, future-proofed for multi-line scaling, multi-user access, and full auditability.
+                </div>
+                <div>
+                  <strong className="text-zinc-200 font-medium">Mobile & Embedded UI:</strong> Shipped smart-home mobile application features and touchscreen embedded device interfaces in Flutter and Dart.
+                </div>
+              </div>
+
+              <div className="flex flex-wrap gap-1.5">
+                <span className="tech-pill">TypeScript</span>
+                <span className="tech-pill">Vue.js</span>
+                <span className="tech-pill">Flutter</span>
+                <span className="tech-pill">Dart</span>
+                <span className="tech-pill">Express</span>
+                <span className="tech-pill">PostgreSQL</span>
+                <span className="tech-pill">Docker</span>
+              </div>
+            </div>
+          </div>
+
+          {/* 2. Imperial College London (MEng) */}
+          <div className="py-8 sm:py-10 grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-8 items-start">
+            <div className="lg:col-span-3 text-xs font-mono text-zinc-400">
+              <span className="text-zinc-200 font-medium block">2022 – 2026</span>
+              <span className="text-zinc-500 block mt-0.5">London, UK</span>
+              <span className="text-zinc-400 block mt-1 text-[11px]">Ranked #2 Globally (QS)</span>
+            </div>
+
+            <div className="lg:col-span-9">
+              <div className="flex flex-wrap items-center gap-2 mb-2">
+                <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
+                  Master of Engineering (MEng), Design Engineering
+                </h3>
+                <a
+                  href="https://www.imperial.ac.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-press inline-flex items-center gap-1 text-xs font-mono px-2.5 py-0.5 rounded bg-zinc-900 text-zinc-300 hover:text-white border border-white/10"
+                >
+                  <span>Imperial College London</span>
+                  <ArrowUpRight size={11} weight="bold" />
+                </a>
+              </div>
+
+              <p className="text-sm text-zinc-300 leading-relaxed max-w-[65ch]">
+                First Class trajectory in Design Engineering at Imperial College London. Awarded the Faculty Dean's List for all 4 consecutive years, recognising students in the top 10% of the cohort.
+              </p>
+            </div>
+          </div>
+
+          {/* 3. Undergraduate Teaching Assistant */}
+          <div className="py-8 sm:py-10 grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-8 items-start">
+            <div className="lg:col-span-3 text-xs font-mono text-zinc-400">
+              <span className="text-zinc-200 font-medium block">Oct 2023 – Jun 2024</span>
+              <span className="text-zinc-500 block mt-0.5">London, UK</span>
+            </div>
+
+            <div className="lg:col-span-9">
+              <div className="flex flex-wrap items-center gap-2 mb-2">
+                <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
+                  Undergraduate Teaching Assistant
+                </h3>
+                <a
+                  href="https://www.imperial.ac.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-press inline-flex items-center gap-1 text-xs font-mono px-2.5 py-0.5 rounded bg-zinc-900 text-zinc-300 hover:text-white border border-white/10"
+                >
+                  <span>Imperial College London</span>
+                  <ArrowUpRight size={11} weight="bold" />
+                </a>
+              </div>
+
+              <p className="text-sm text-zinc-300 leading-relaxed max-w-[65ch]">
+                Facilitated computing and engineering modules for undergraduate cohorts, conducting hands-on code reviews, hardware debugging, and problem-solving workshops.
+              </p>
+            </div>
+          </div>
+
+          {/* 4. Academic STEM Tutor */}
+          <div className="py-8 sm:py-10 grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-8 items-start">
+            <div className="lg:col-span-3 text-xs font-mono text-zinc-400">
+              <span className="text-zinc-200 font-medium block">Nov 2022 – Present</span>
+              <span className="text-zinc-500 block mt-0.5">West London & Online</span>
+            </div>
+
+            <div className="lg:col-span-9">
+              <div className="flex flex-wrap items-center gap-2 mb-2">
+                <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
+                  Academic STEM Tutor
+                </h3>
+                <Link
+                  to="/tutoring"
+                  className="btn-press inline-flex items-center gap-1 text-xs font-mono px-2.5 py-0.5 rounded bg-zinc-900 text-zinc-300 hover:text-white border border-white/10"
+                >
+                  <span>View Tutoring Practice</span>
+                  <ArrowUpRight size={11} weight="bold" />
+                </Link>
+              </div>
+
+              <p className="text-sm text-zinc-300 leading-relaxed max-w-[65ch]">
+                Over 4 years delivering bespoke 1:1 tuition in Mathematics, Physics, and Computer Science for GCSE and A-level candidates targeting top grades (A and A*).
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  );
+}
