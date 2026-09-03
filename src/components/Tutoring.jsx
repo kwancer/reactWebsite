@@ -182,7 +182,7 @@ export default function Tutoring({ isSubdomain = false }) {
                 Focus on Top Grades (A & A*)
               </h3>
               <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed">
-                I exclusively focus on <strong>1:1 lessons for high-achieving students or students aiming for top grades</strong>. Lessons move rapidly past rote memorisation to tackle non-routine problems, past-paper analysis, and university entrance interview preparation.
+                I exclusively focus on <strong>1:1 lessons for students aiming for top grades (A & A*)</strong> across <strong>Edexcel, AQA, OCR, and Cambridge (CIE)</strong>. Lessons move rapidly past rote memorisation to tackle non-routine problems, past-paper analysis, and university entrance interview preparation.
               </p>
             </div>
 
@@ -194,7 +194,7 @@ export default function Tutoring({ isSubdomain = false }) {
                 West London & Online
               </h3>
               <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed">
-                I offer in-person lessons in <strong>West London</strong> and <strong>predominantly online</strong> for students across the UK and internationally. Online tutoring provides flexible scheduling and digital notes without travel fatigue.
+                I offer in-person lessons across <strong>West London</strong> (including Kensington, Chelsea, Fulham, and Chiswick) and <strong>predominantly online</strong> for students across the UK and internationally via interactive digital whiteboards.
               </p>
             </div>
 

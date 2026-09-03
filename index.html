@@ -14,6 +14,23 @@
     <link rel="icon" type="image/png" href="/me.png" />
     <link rel="canonical" href="https://wancerski.uk/" />
 
+    <!-- Open Graph (Facebook, LinkedIn, iMessage, WhatsApp) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Krzysztof Wancerski" />
+    <meta property="og:title" content="Krzysztof (Kris) Wancerski | Full-Stack, Mobile & AI Design Engineer" />
+    <meta property="og:description" content="First-Class MEng graduate in Design Engineering from Imperial College London (Ranked #2 Globally). Applied Agentic AI, Flutter mobile apps, and full-stack production systems." />
+    <meta property="og:url" content="https://wancerski.uk/" />
+    <meta property="og:image" content="https://wancerski.uk/og-software.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Krzysztof Wancerski — Full-Stack, Mobile & AI Design Engineer" />
+
+    <!-- Twitter / X Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Krzysztof (Kris) Wancerski | Full-Stack, Mobile & AI Design Engineer" />
+    <meta name="twitter:description" content="First-Class MEng graduate from Imperial College London (#2 globally). Applied Agentic AI, Flutter mobile apps, and full-stack production systems." />
+    <meta name="twitter:image" content="https://wancerski.uk/og-software.png" />
+
     <!-- Typography: Geist Sans & Geist Mono + Newsreader for authentic editorial touch -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,17 +44,51 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Krzysztof Wancerski",
-      "alternateName": "Kris Wancerski",
-      "url": "https://wancerski.uk/",
-      "alumniOf": {
-        "@type": "EducationalOrganization",
-        "name": "Imperial College London"
-      },
-      "jobTitle": "Full-Stack Software Engineer",
-      "sameAs": [
-        "https://www.linkedin.com/in/kwancerski"
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://wancerski.uk/#person",
+          "name": "Krzysztof Wancerski",
+          "alternateName": "Kris Wancerski",
+          "url": "https://wancerski.uk/",
+          "image": "https://wancerski.uk/me.png",
+          "jobTitle": "Full-Stack, Mobile & AI Design Engineer",
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Imperial College London",
+            "sameAs": "https://www.imperial.ac.uk"
+          },
+          "award": [
+            "Faculty of Engineering Dean's List (All 4 Consecutive Years)",
+            "IET Future Talent Award"
+          ],
+          "sameAs": [
+            "https://www.linkedin.com/in/kwancerski"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://wancerski.uk/#website",
+          "url": "https://wancerski.uk/",
+          "name": "Krzysztof Wancerski Portfolio",
+          "publisher": { "@id": "https://wancerski.uk/#person" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "AskForecast",
+          "url": "https://askforecast.app",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "Web",
+          "description": "Democratising time-series forecasting via autonomous agentic AI with oral presentation distinction at ISF Montreal 2026."
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Yarn Health",
+          "url": "https://yarn.health",
+          "applicationCategory": "HealthApplication",
+          "operatingSystem": "Mobile (iOS & Android)",
+          "description": "Conversational mobile app and clinical voice companion validated across patient trials."
+        }
       ]
     }
     </script>
