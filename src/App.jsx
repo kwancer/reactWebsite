@@ -1,5 +1,5 @@
-import React, { useMemo } from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import React, { useMemo, useEffect } from 'react';
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import FeaturedProjects from './components/FeaturedProjects';
@@ -80,12 +80,36 @@ function NotFound() {
 }
 
 export default function App() {
+  const location = useLocation();
+
   // Check if current hostname is configured as a tutoring subdomain (e.g. tutoring.wancerski.uk)
   const isTutoringSubdomain = useMemo(() => {
     if (typeof window === 'undefined') return false;
     const hostname = window.location.hostname.toLowerCase();
     return hostname.startsWith('tutoring.');
   }, []);
+
+  // Dynamically configure contextual LLM discovery link in DOM head based on route
+  useEffect(() => {
+    if (typeof document === 'undefined') return;
+
+    let contextualLink = document.querySelector('link[data-contextual-llms]');
+    if (!contextualLink) {
+      contextualLink = document.createElement('link');
+      contextualLink.setAttribute('rel', 'alternate');
+      contextualLink.setAttribute('type', 'text/markdown');
+      contextualLink.setAttribute('data-contextual-llms', 'true');
+      document.head.appendChild(contextualLink);
+    }
+
+    if (location.pathname === '/tutoring' || isTutoringSubdomain) {
+      contextualLink.setAttribute('href', '/llms-tutoring.txt');
+      contextualLink.setAttribute('title', 'Academic STEM Tutoring Practice Dossier');
+    } else {
+      contextualLink.setAttribute('href', '/llms-software.txt');
+      contextualLink.setAttribute('title', 'Software, Mobile & AI Engineering Dossier');
+    }
+  }, [location.pathname, isTutoringSubdomain]);
 
   return (
     <div className="relative min-h-[100dvh] bg-[#0a0a0c]">
