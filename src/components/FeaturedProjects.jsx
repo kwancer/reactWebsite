@@ -287,15 +287,15 @@ export default function FeaturedProjects() {
               </h3>
 
               <p className="text-sm text-zinc-400 leading-relaxed mb-6">
-                Architecting custom full-stack operations and manufacturing software to eliminate manual bottlenecks and facilitate rapid physical scaling.
+                Architecting custom full-stack operations software and automated quality control to streamline hardware assembly and facilitate production scaling.
               </p>
 
               <div className="space-y-3 text-xs sm:text-sm text-zinc-300 mb-6 border-l border-white/[0.1] pl-4">
                 <div className="leading-relaxed">
-                  <strong className="text-white font-medium">Supported 1,000+ Production Devices:</strong> Core internal system at Tewke Ltd. managing one-line multi-device assembly with automated parts and inventory deduction, architected and future-proofed for multi-line, multi-user scaling and full auditability.
+                  <strong className="text-white font-medium">Supported 1,000+ Production Devices:</strong> Core internal system at Tewke Ltd. managing multi-device production tracking, parts deduction, and automated device provisioning.
                 </div>
                 <div className="leading-relaxed">
-                  <strong className="text-white font-medium">Camera Quality Control:</strong> Automated photo validation at key build stages to isolate assembly defects immediately and streamline customer support triage.
+                  <strong className="text-white font-medium">Camera Quality Control:</strong> Integrated photo validation at critical assembly stages to isolate build defects immediately and ensure rigorous manufacturing auditability.
                 </div>
               </div>
             </div>

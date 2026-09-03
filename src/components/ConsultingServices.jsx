@@ -36,15 +36,15 @@ export default function ConsultingServices() {
   ];
 
   return (
-    <section id="services" className="py-24 border-b border-white/[0.08]">
+    <section id="approach" className="py-24 border-b border-white/[0.08]">
       <div className="max-w-6xl mx-auto px-6">
         
         <div className="mb-14">
           <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight mb-3">
-            Consulting & Product Engineering
+            Engineering Approach & Product Principles
           </h2>
           <p className="text-base text-zinc-300 max-w-[65ch] leading-relaxed">
-            Partnering directly with founders and teams to turn ideas into successful, beautiful products with production-ready code that works and scales.
+            Taking complex, undefined challenges from first principles to reliable, production-ready software that users love.
           </p>
         </div>
 
@@ -54,31 +54,31 @@ export default function ConsultingServices() {
             
             <div className="lg:col-span-7">
               <div className="text-xs font-mono text-zinc-400 mb-3">
-                <span className="text-zinc-300 font-medium">Product Execution & Engineering</span>
+                <span className="text-zinc-300 font-medium">Engineering Philosophy</span>
               </div>
 
               <h3 className="text-2xl sm:text-3xl font-bold text-white tracking-tight mb-3">
-                From Undefined Idea to a Shipped, Successful Product
+                From Undefined Idea to Working Software
               </h3>
 
               <p className="text-sm sm:text-base text-zinc-300 leading-relaxed mb-6">
-                Whether you have an early-stage concept, an evolving business requirement, or an ambitious product vision, I take ownership from day one. You get software that looks beautiful, feels intuitive to users, and is engineered with rock-solid, production-ready code that actually works and scales.
+                Whether exploring early-stage concepts, solving complex systems challenges, or refining user-facing interfaces, I ground every technical decision in first principles. The focus is always on building software that feels intuitive to users, looks refined, and is powered by clean, scalable architecture that works reliably in production.
               </p>
 
               <div className="space-y-3 text-xs sm:text-sm text-zinc-400 border-l border-white/[0.1] pl-4">
                 <div>
-                  <strong className="text-white font-medium">Focus on Product Success:</strong> Building what actually matters for your users and your business, moving quickly from first concepts to working software that drives results.
+                  <strong className="text-white font-medium">Focus on Real Impact:</strong> Building what actually matters for users, moving rapidly from concept to working software that drives real-world outcomes.
                 </div>
                 <div>
-                  <strong className="text-white font-medium">Production-Grade & Scalable:</strong> Writing clean, robust code across TypeScript, Vue, and Flutter that works reliably in production and scales effortlessly as your company grows.
+                  <strong className="text-white font-medium">Production-Grade & Scalable:</strong> Writing clean, robust code across TypeScript, Vue, and Flutter that runs reliably in production and scales effortlessly as complexity grows.
                 </div>
               </div>
             </div>
 
-            {/* What I Deliver */}
+            {/* Core Tenets */}
             <div className="lg:col-span-5 rounded-xl bg-[#0a0a0c] border border-white/[0.08] p-6 text-xs font-mono">
               <div className="text-[11px] uppercase tracking-wider text-zinc-400 mb-4 font-semibold">
-                What I Deliver
+                Core Tenets
               </div>
 
               <div className="space-y-3">
@@ -93,8 +93,8 @@ export default function ConsultingServices() {
                 </div>
 
                 <div className="p-3.5 rounded bg-zinc-900/60 border border-white/[0.05]">
-                  <span className="font-sans font-semibold text-white block text-sm mb-0.5">3. Fast, Collaborative Execution</span>
-                  <p className="font-sans text-xs text-zinc-400">Direct partnership with zero bureaucratic bloat, shipping high-quality software into hands quickly.</p>
+                  <span className="font-sans font-semibold text-white block text-sm mb-0.5">3. First-Principles Velocity</span>
+                  <p className="font-sans text-xs text-zinc-400">Rapid execution with high autonomy, cutting through noise to ship high-quality software into hands quickly.</p>
                 </div>
               </div>
             </div>
@@ -141,17 +141,17 @@ export default function ConsultingServices() {
         <div className="minimal-surface p-6 sm:p-8 bg-[#0e0e11] flex flex-col sm:flex-row items-center justify-between gap-6">
           <div>
             <h3 className="text-base sm:text-lg font-bold text-zinc-100 mb-1">
-              Have a product vision or need rapid technical execution?
+              Interested in a chat or want to grab a coffee?
             </h3>
             <p className="text-xs sm:text-sm text-zinc-400">
-              Let's talk through your vision, product requirements, or prototype scope.
+              Always open to connecting with fellow engineers, discussing interesting technical problems, or talking through new ideas.
             </p>
           </div>
           <a
-            href="mailto:krzysztofwancerski@gmail.com?subject=Product%20Engineering%20Enquiry"
+            href="mailto:krzysztofwancerski@gmail.com?subject=Hello%20Kris"
             className="btn-press shrink-0 inline-flex items-center gap-2 px-5 py-3 rounded-md text-xs font-semibold bg-white text-zinc-950 hover:bg-zinc-200"
           >
-            <span>Discuss Your Product</span>
+            <span>Say Hello</span>
             <ArrowUpRight size={13} weight="bold" />
           </a>
         </div>

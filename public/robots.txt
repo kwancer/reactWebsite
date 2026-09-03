@@ -19,4 +19,4 @@ User-agent: Applebot-Extended
 Allow: /
 
 # XML Sitemap
-Sitemap: https://wancerski.uk/sitemap.xml
+Sitemap: https://kwancerski.page/sitemap.xml

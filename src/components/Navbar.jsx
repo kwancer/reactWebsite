@@ -47,7 +47,7 @@ export default function Navbar() {
           ) : (
             <>
               <a href="#work" className="hover:text-zinc-100 transition">Featured Projects</a>
-              <a href="#services" className="hover:text-zinc-100 transition">Consulting</a>
+              <a href="#approach" className="hover:text-zinc-100 transition">Approach</a>
               <a href="#experience" className="hover:text-zinc-100 transition">Experience</a>
               <a href="#credentials" className="hover:text-zinc-100 transition">Honours</a>
               <a href="#contact" className="hover:text-zinc-100 transition">Contact</a>
@@ -82,7 +82,7 @@ export default function Navbar() {
           ) : (
             <>
               <a href="#work" onClick={() => setIsOpen(false)} className="block text-zinc-400 hover:text-white">Featured Projects</a>
-              <a href="#services" onClick={() => setIsOpen(false)} className="block text-zinc-400 hover:text-white">Consulting</a>
+              <a href="#approach" onClick={() => setIsOpen(false)} className="block text-zinc-400 hover:text-white">Approach</a>
               <a href="#experience" onClick={() => setIsOpen(false)} className="block text-zinc-400 hover:text-white">Experience</a>
               <a href="#credentials" onClick={() => setIsOpen(false)} className="block text-zinc-400 hover:text-white">Honours</a>
               <a href="#contact" onClick={() => setIsOpen(false)} className="block text-zinc-400 hover:text-white">Contact</a>

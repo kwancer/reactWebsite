@@ -82,7 +82,7 @@ function NotFound() {
 export default function App() {
   const location = useLocation();
 
-  // Check if current hostname is configured as a tutoring subdomain (e.g. tutoring.wancerski.uk)
+  // Check if current hostname is configured as a tutoring subdomain (e.g. tutoring.kwancerski.page)
   const isTutoringSubdomain = useMemo(() => {
     if (typeof window === 'undefined') return false;
     const hostname = window.location.hostname.toLowerCase();

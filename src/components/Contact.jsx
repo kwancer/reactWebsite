@@ -26,7 +26,7 @@ export default function Contact() {
             Get in Touch
           </h2>
           <p className="text-base text-zinc-300 max-w-[65ch] leading-relaxed">
-            Direct channels for technical consulting enquiries, software architecture discussions, or academic tutoring bookings.
+            Whether you want to connect about software engineering, discuss interesting technical challenges, or enquire about academic tutoring, feel free to reach out.
           </p>
         </div>
 
@@ -42,7 +42,7 @@ export default function Contact() {
                 krzysztofwancerski@gmail.com
               </div>
               <p className="text-sm text-zinc-400 leading-relaxed">
-                Direct inbox for technical consulting, software engineering projects, and academic tutoring enquiries.
+                Direct inbox for software engineering discussions, coffee chats, and academic tutoring enquiries.
               </p>
             </div>
 

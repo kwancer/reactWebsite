@@ -48,7 +48,7 @@ export default function Experience() {
 
               <div className="space-y-2 mb-5 text-xs sm:text-sm text-zinc-400 border-l border-white/[0.1] pl-4">
                 <div>
-                  <strong className="text-zinc-200 font-medium">1,000+ Devices in Production:</strong> Architected the core internal operations software managing one-line multi-device assembly with automated parts deduction and camera QC, future-proofed for multi-line scaling, multi-user access, and full auditability.
+                  <strong className="text-zinc-200 font-medium">1,000+ Devices in Production:</strong> Architected core internal operations software managing multi-device production tracking, automated parts deduction, and automated camera QC.
                 </div>
                 <div>
                   <strong className="text-zinc-200 font-medium">Mobile & Embedded UI:</strong> Shipped smart-home mobile application features and touchscreen embedded device interfaces in Flutter and Dart.

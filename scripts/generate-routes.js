@@ -35,7 +35,7 @@ tutoringHtml = tutoringHtml.replace(
 
 tutoringHtml = tutoringHtml.replace(
   /<link\s+rel="canonical"\s+href="https:\/\/wancerski\.uk\/"\s*\/>/,
-  '<link rel="canonical" href="https://wancerski.uk/tutoring" />'
+  '<link rel="canonical" href="https://kwancerski.page/tutoring" />'
 );
 
 // Open Graph replacements
@@ -51,12 +51,12 @@ tutoringHtml = tutoringHtml.replace(
 
 tutoringHtml = tutoringHtml.replace(
   /<meta\s+property="og:url"\s+content=".*?"\s*\/>/,
-  '<meta property="og:url" content="https://wancerski.uk/tutoring" />'
+  '<meta property="og:url" content="https://kwancerski.page/tutoring" />'
 );
 
 tutoringHtml = tutoringHtml.replace(
   /<meta\s+property="og:image"\s+content=".*?"\s*\/>/,
-  '<meta property="og:image" content="https://wancerski.uk/og-tutoring.png" />'
+  '<meta property="og:image" content="https://kwancerski.page/og-tutoring.png" />'
 );
 
 tutoringHtml = tutoringHtml.replace(
@@ -77,7 +77,7 @@ tutoringHtml = tutoringHtml.replace(
 
 tutoringHtml = tutoringHtml.replace(
   /<meta\s+name="twitter:image"\s+content=".*?"\s*\/>/,
-  '<meta name="twitter:image" content="https://wancerski.uk/og-tutoring.png" />'
+  '<meta name="twitter:image" content="https://kwancerski.page/og-tutoring.png" />'
 );
 
 // Replace Schema.org JSON-LD with EducationalOrganization Tutoring Schema
@@ -86,11 +86,11 @@ const tutoringSchema = `
     {
       "@context": "https://schema.org",
       "@type": "EducationalOrganization",
-      "@id": "https://wancerski.uk/tutoring#service",
+      "@id": "https://kwancerski.page/tutoring#service",
       "name": "Krzysztof Wancerski STEM Academic Tutoring",
-      "url": "https://wancerski.uk/tutoring",
-      "logo": "https://wancerski.uk/me.png",
-      "image": "https://wancerski.uk/og-tutoring.png",
+      "url": "https://kwancerski.page/tutoring",
+      "logo": "https://kwancerski.page/me.png",
+      "image": "https://kwancerski.page/og-tutoring.png",
       "description": "Elite 1:1 GCSE and A-Level tutoring in Mathematics, Physics, and Computer Science delivered by Imperial College London First-Class MEng graduate.",
       "address": {
         "@type": "PostalAddress",

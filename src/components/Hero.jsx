@@ -12,10 +12,10 @@ const PORTFOLIO_MARKDOWN = `# Krzysztof (Kris) Wancerski — Portfolio & Dossier
 ## Contact & Direct Channels
 - **Direct Email**: krzysztofwancerski@gmail.com
 - **LinkedIn Profile**: https://www.linkedin.com/in/kwancerski/
-- **Portfolio Website**: https://wancerski.uk
-- **Featured Projects**: https://wancerski.uk#work
-- **Consulting Services**: https://wancerski.uk#services
-- **Academic Tutoring Portal**: https://wancerski.uk/tutoring
+- **Portfolio Website**: https://kwancerski.page
+- **Featured Projects**: https://kwancerski.page#work
+- **Engineering Approach**: https://kwancerski.page#approach
+- **Academic Tutoring Portal**: https://kwancerski.page/tutoring
 - **Location**: London, UK (West London)
 - **Timezone**: GMT (UTC+1)
 
@@ -48,15 +48,16 @@ Combines rigorous engineering fundamentals with customer-facing product delivery
   - **Autonomous Agentic Workflow**: Embedded AI agent parses natural language, orchestrates statistical ensembles, calculates prediction intervals, and synthesises diagnostic reports.
 - **Technologies**: Agentic AI, Python, FastAPI, Vue 3, Gemini API, Probabilistic Time-Series Models.
 
-### 2. Yarn Health — Conversational Clinical Voice Companion
+### 2. Yarn Health — Conversational Voice AI Companion
 - **URL**: https://yarn.health
-- **Classification**: Conversational Mobile App Health Companion / 15 Real Clinical Users
-- **Headline**: A smart voice & text diary helping chronic patients capture symptoms and prepare for doctor visits.
-- **Overview**: A conversational mobile app and health journal that helps patients capture and structure complex symptoms between clinical appointments via voice and text, producing structured clinical summaries for doctors.
+- **Classification**: Venture-Backed Healthcare Startup / Mobile & Voice AI
+- **Headline**: Conversational Voice AI Companion for Clinical Trials.
+- **Overview**: Voice-first mobile application designed to capture rich, unstructured patient quality-of-life narratives during clinical oncology trials.
 - **Key Technical Accomplishments**:
-  - **Validated in Real Clinical Testing**: Completed user trials with 15 patients navigating complex chronic health journeys to refine voice interaction latency and summary accuracy.
-  - **Dual-Model Agentic Architecture**: Real-time streaming voice transcription via Whisper for fluid conversational check-ins, coupled with a deep reasoning agent for longitudinal symptom synthesis.
-- **Technologies**: Agentic AI, Flutter, Dart, Nuxt UI, Whisper, Vector Search.
+  - **Ultra Low-Latency Streaming**: Integrated OpenAI Whisper and voice synthesis for empathetic, real-time clinical dialogue.
+  - **Multi-Modal Narrative Engine**: Transforms conversational audio into structured, validated clinical endpoints.
+  - **Clinical Pilot Validation**: Successfully deployed and validated across 15 real clinical users in live trials.
+- **Technologies**: Flutter, Dart, OpenAI Whisper, Real-Time Audio Streaming, HealthTech APIs.
 
 ### 3. Mobile Apps & Embedded Touchscreen UI (Tewke Ltd.)
 - **Classification**: Production Hardware Ecosystem / Mobile & Embedded Hardware
@@ -70,10 +71,10 @@ Combines rigorous engineering fundamentals with customer-facing product delivery
 ### 4. Manufacturing & Operations Software for Scaling Hardware (Tewke Ltd.)
 - **Classification**: Internal Operations & Scaling Tooling / 1,000+ Production Devices
 - **Headline**: Manufacturing & Operations Software for Scaling Hardware.
-- **Overview**: Architecting custom full-stack operations and manufacturing software to eliminate manual bottlenecks and facilitate rapid physical scaling.
+- **Overview**: Architecting custom full-stack operations software and automated quality control to streamline hardware assembly and facilitate production scaling.
 - **Key Technical Accomplishments**:
-  - **Supported 1,000+ Production Devices**: Core internal system at Tewke Ltd. managing one-line multi-device assembly with automated parts and inventory deduction, architected and future-proofed for multi-line, multi-user scaling and full auditability.
-  - **Camera Quality Control**: Automated photo validation at key build stages to isolate assembly defects immediately and streamline customer support triage.
+  - **Supported 1,000+ Production Devices**: Core internal system at Tewke Ltd. managing multi-device production tracking, parts deduction, and automated device provisioning.
+  - **Camera Quality Control**: Integrated photo validation at critical assembly stages to isolate build defects immediately and ensure rigorous manufacturing auditability.
 - **Technologies**: TypeScript, Vue.js, Express, PostgreSQL, Drizzle ORM, Docker.
 
 ### Imperial Physical Computing & Engineering Archive
@@ -82,20 +83,15 @@ Combines rigorous engineering fundamentals with customer-facing product delivery
 
 ---
 
-## Consulting & Product Engineering Services
+## Engineering Approach & Product Principles
 
-### Mission & Proposition
-Partnering directly with founders and teams to turn ideas into successful, beautiful products with production-ready code that works and scales.
+### Philosophy & Way of Working
+Taking complex, undefined challenges from first principles to reliable, production-ready software that users love. Grounding every technical decision in first principles, moving rapidly from concept to working software that drives real-world outcomes.
 
-### Core Engagement Model
-From Undefined Idea to a Shipped, Successful Product: Whether you have an early-stage concept, an evolving business requirement, or an ambitious product vision, Kris takes technical ownership from day one. You get software that looks beautiful, feels intuitive to users, and is engineered with rock-solid, production-ready code that actually works and scales.
-- **Focus on Product Success**: Building what actually matters for your users and your business, moving quickly from first concepts to working software that drives results.
-- **Production-Grade & Scalable**: Writing clean, robust code across TypeScript, Vue, and Flutter that works reliably in production and scales effortlessly as your company grows.
-
-### Deliverables & Commitments
+### Core Tenets
 1. **Beautiful, Polish-First UX**: Thoughtfully designed interfaces that look premium, feel responsive, and build immediate user trust.
-2. **Working, Production-Ready Code**: Software built to work in the real world from day one, backed by scalable architecture and clean code.
-3. **Fast, Collaborative Execution**: Direct partnership with zero bureaucratic bloat, shipping high-quality software into hands quickly.
+2. **Working, Production-Ready Code**: Software built to work in the real world from day one, backed by scalable architecture and clean code across TypeScript, Vue, and Flutter.
+3. **First-Principles Velocity**: Rapid execution with high autonomy, cutting through noise to ship high-quality software into hands quickly.
 
 ### Technical Capability Pillars
 - **Agentic & Multi-Modal AI**: Architecting autonomous AI agents, real-time voice streaming with Whisper, and deep reasoning models for complex document and clinical synthesis. (Stack: Agentic AI, Voice AI, LLM Chains, Vector Search).
@@ -112,7 +108,7 @@ From Undefined Idea to a Shipped, Successful Product: Whether you have an early-
 - **Company URL**: https://tewke.com
 - **Scope**: Technical ownership across internal manufacturing operations, full-stack backend systems, and cross-platform mobile & embedded device features.
 - **Impact**:
-  - Architected core internal operations software managing one-line multi-device assembly with automated parts deduction and camera QC for 1,000+ production devices, future-proofed for multi-line, multi-user scaling and full auditability.
+  - Architected core internal operations software managing multi-device production tracking, automated parts deduction, and automated camera QC for 1,000+ production devices.
   - Shipped smart-home mobile application features and touchscreen embedded device interfaces in Flutter and Dart.
 - **Stack**: TypeScript, Vue.js, Flutter, Dart, Express, PostgreSQL, Docker.
 
@@ -130,7 +126,7 @@ From Undefined Idea to a Shipped, Successful Product: Whether you have an early-
 ### 4. Academic STEM Tutor — Private Practice
 - **Tenure**: Nov 2022 – Present
 - **Location**: West London & Online
-- **Portal**: https://wancerski.uk/tutoring
+- **Portal**: https://kwancerski.page/tutoring
 - **Scope**: Over 4 years delivering bespoke 1:1 tuition in Mathematics, Physics, and Computer Science for GCSE and A-level candidates targeting top grades (A and A*).
 
 ---

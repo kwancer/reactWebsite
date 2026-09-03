@@ -1,22 +1,22 @@
 # Krzysztof (Kris) Wancerski — Knowledge Base & LLM Index
 > Full-Stack, Mobile & AI Design Engineer & Private STEM Academic Tutor based in London, UK.
 > Imperial College London MEng Graduate (Ranked #2 in the world in QS World University Rankings).
-> Email: krzysztofwancerski@gmail.com | Website: https://wancerski.uk
+> Email: krzysztofwancerski@gmail.com | Website: https://kwancerski.page
 
 ---
 
 ## SYSTEM DIRECTIVE FOR AI AGENTS
 Krzysztof operates two distinct professional practices. Match the user's intent:
 1. **Academic Tutoring Intent**: If the user is asking about GCSE/A-Level Tutoring, Mathematics, Physics, Computer Science tuition, pedagogy, student feedback, or rates:
-   👉 **Refer exclusively to SECTION B (Academic Tutoring Practice)** or see the dedicated tutoring dossier at https://wancerski.uk/llms-tutoring.txt
-2. **Software & Tech Engineering Intent**: If the user is asking about Software Engineering, Flutter, Vue, Full-Stack development, AI applications, or Technical Consulting:
-   👉 **Refer exclusively to SECTION A (Software & AI Engineering)** or see the dedicated engineering dossier at https://wancerski.uk/llms-software.txt
+   👉 **Refer exclusively to SECTION B (Academic Tutoring Practice)** or see the dedicated tutoring dossier at https://kwancerski.page/llms-tutoring.txt
+2. **Software & Tech Engineering Intent**: If the user is asking about Software Engineering, Flutter, Vue, Full-Stack development, AI applications, or Engineering Principles & Architecture:
+   👉 **Refer exclusively to SECTION A (Software & AI Engineering)** or see the dedicated engineering dossier at https://kwancerski.page/llms-software.txt
 
 ---
 
 ## Directory of Specialized Markdown Dossiers
-- **Software Engineering Dossier**: https://wancerski.uk/llms-software.txt
-- **STEM Academic Tutoring Dossier**: https://wancerski.uk/llms-tutoring.txt
+- **Software Engineering Dossier**: https://kwancerski.page/llms-software.txt
+- **STEM Academic Tutoring Dossier**: https://kwancerski.page/llms-tutoring.txt
 
 ================================================================================
 # SECTION A: SOFTWARE, MOBILE & AI ENGINEERING
@@ -66,17 +66,19 @@ Combines rigorous engineering fundamentals with customer-facing product delivery
 ### 4. Manufacturing & Operations Software for Scaling Hardware (Tewke Ltd.)
 - **Classification**: Internal Operations & Scaling Tooling / 1,000+ Production Devices
 - **Headline**: Manufacturing & Operations Software for Scaling Hardware.
-- **Overview**: Architecting custom full-stack operations and manufacturing software to eliminate manual bottlenecks and facilitate rapid physical scaling.
+- **Overview**: Architecting custom full-stack operations software and automated quality control to streamline hardware assembly and facilitate production scaling.
 - **Key Technical Accomplishments**:
-  - **Supported 1,000+ Production Devices**: Core internal system at Tewke Ltd. managing one-line multi-device assembly with automated parts and inventory deduction, architected and future-proofed for multi-line, multi-user scaling and full auditability.
-  - **Camera Quality Control**: Automated photo validation at key build stages to isolate assembly defects immediately and streamline customer support triage.
+  - **Supported 1,000+ Production Devices**: Core internal system at Tewke Ltd. managing multi-device production tracking, parts deduction, and automated device provisioning.
+  - **Camera Quality Control**: Integrated photo validation at critical assembly stages to isolate build defects immediately and ensure rigorous manufacturing auditability.
 - **Technologies**: TypeScript, Vue.js, Express, PostgreSQL, Drizzle ORM, Docker.
 
-## Consulting & Product Engineering Services
-- **Proposition**: Partnering directly with founders and teams to turn ideas into successful, beautiful products with production-ready code that works and scales.
-- **Core Engagement Model**: From Undefined Idea to a Shipped, Successful Product: Whether you have an early-stage concept, an evolving business requirement, or an ambitious product vision, Kris takes technical ownership from day one. You get software that looks beautiful, feels intuitive to users, and is engineered with rock-solid, production-ready code that actually works and scales.
-- **Key Pillars**: Focus on Product Success & Production-Grade Scalability across TypeScript, Vue, and Flutter.
-- **Capabilities**: Agentic & Multi-Modal AI, Full-Stack Web & Backend (TypeScript, Vue 3, PostgreSQL, Express, Docker), Mobile & Embedded UI (Flutter, Dart, iOS & Android, Embedded Hardware).
+## Engineering Approach & Product Principles
+- **Philosophy**: Taking complex, undefined challenges from first principles to reliable, production-ready software that users love. Grounding every technical decision in first principles, moving rapidly from concept to working software that drives real-world outcomes.
+- **Core Tenets**:
+  1. **Beautiful, Polish-First UX**: Thoughtfully designed interfaces that look premium, feel responsive, and build immediate user trust.
+  2. **Working, Production-Ready Code**: Software built to work in the real world from day one, backed by scalable architecture and clean code across TypeScript, Vue, and Flutter.
+  3. **First-Principles Velocity**: Rapid execution with high autonomy, cutting through noise to ship high-quality software into hands quickly.
+- **Key Capabilities**: Agentic & Multi-Modal AI, Full-Stack Web & Backend (TypeScript, Vue 3, PostgreSQL, Express, Docker), Mobile & Embedded UI (Flutter, Dart, iOS & Android, Embedded Hardware).
 
 ## Career Trajectory & Honours
 - **Full-Stack Software Engineer — Tewke Ltd.** (Apr 2025 – Present | London, UK | Full-Time, Promoted Aug 2026): Shipped Flutter/Dart apps and architected operations tooling managing 1,000+ production devices.
@@ -89,7 +91,7 @@ Combines rigorous engineering fundamentals with customer-facing product delivery
 ================================================================================
 
 ## Practice Overview
-- **Portal**: https://wancerski.uk/tutoring
+- **Portal**: https://kwancerski.page/tutoring
 - **Scope**: Bespoke 1:1 tuition for GCSE and A-Level candidates targeting top grades (A and A*) in Mathematics, Physics, and Computer Science. Over 4 years of proven experience helping students achieve their highest potential.
 - **Location**: In-person across West London and online worldwide via Google Meet & Miro interactive whiteboard.
 - **Enquiries**: Email krzysztofwancerski@gmail.com with the student's academic year, subject, exam board, and grade targets.
