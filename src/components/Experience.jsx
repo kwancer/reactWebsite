@@ -12,7 +12,7 @@ export default function Experience() {
             Experience & Education
           </h2>
           <p className="text-base text-zinc-300 max-w-[65ch] leading-relaxed">
-            Professional trajectory across production software engineering, world-leading university education, and academic mentorship.
+            A track record of shipping software, hardware-connected systems, and academic distinction.
           </p>
         </div>
 
@@ -23,13 +23,13 @@ export default function Experience() {
             <div className="lg:col-span-3 text-xs font-mono text-zinc-400">
               <span className="text-zinc-200 font-medium block">Apr 2025 – Present</span>
               <span className="text-zinc-500 block mt-0.5">London, UK</span>
-              <span className="text-zinc-400 block mt-1 text-[11px]">Full-Time (Promoted Aug 2026)</span>
+              <span className="text-zinc-400 block mt-1 text-[11px]">Full-Time</span>
             </div>
 
             <div className="lg:col-span-9">
               <div className="flex flex-wrap items-center gap-2 mb-2">
                 <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
-                  Full-stack Software Engineer
+                  Full-Stack Software Engineer
                 </h3>
                 <a
                   href="https://tewke.com"
@@ -43,15 +43,15 @@ export default function Experience() {
               </div>
 
               <p className="text-sm text-zinc-300 mb-4 leading-relaxed max-w-[65ch]">
-                Technical ownership across internal manufacturing operations, full-stack backend systems, and cross-platform mobile & embedded device features.
+                Technical ownership spanning internal manufacturing operations, full-stack web platforms, and cross-platform mobile & embedded features. Working across software and physical operations to take a commercial smart-home product from design to scale.
               </p>
 
               <div className="space-y-2 mb-5 text-xs sm:text-sm text-zinc-400 border-l border-white/[0.1] pl-4">
                 <div>
-                  <strong className="text-zinc-200 font-medium">1,000+ Devices in Production:</strong> Architected core internal operations software managing multi-device production tracking, automated parts deduction, and automated camera QC.
+                  <strong className="text-zinc-200 font-medium">Used Across 1,000+ Production Devices:</strong> Built core operations software for multi-device assembly tracking, automated parts deduction, and camera quality control.
                 </div>
                 <div>
-                  <strong className="text-zinc-200 font-medium">Mobile & Embedded UI:</strong> Shipped smart-home mobile application features and touchscreen embedded device interfaces in Flutter and Dart.
+                  <strong className="text-zinc-200 font-medium">Smart-Home Mobile & Embedded UI:</strong> Shipped user-facing mobile features and touchscreen device interfaces in Flutter and Dart.
                 </div>
               </div>
 
@@ -92,7 +92,7 @@ export default function Experience() {
               </div>
 
               <p className="text-sm text-zinc-300 leading-relaxed max-w-[65ch]">
-                First Class trajectory in Design Engineering at Imperial College London. Awarded the Faculty Dean's List for all 4 consecutive years, recognising students in the top 10% of the cohort.
+                First-Class Honours trajectory in Design Engineering at Imperial College London. Awarded the Faculty Dean's List for all 4 consecutive years, recognising students in the top 10% of the cohort. An engineering discipline fusing mechanical engineering, electronics, computer science, and user-centred design to turn complex technical innovations into viable real-world products.
               </p>
             </div>
           </div>

@@ -10,28 +10,28 @@ import {
   RocketLaunch 
 } from '@phosphor-icons/react';
 
-export default function ConsultingServices() {
+export default function HowIWork() {
   const capabilities = [
     {
       icon: Brain,
-      title: 'Agentic & Multi-Modal AI',
+      title: 'AI & Intelligent Workflows',
       description:
-        'Architecting autonomous AI agents, real-time voice streaming with Whisper, and deep reasoning models for complex document and clinical synthesis.',
-      tags: ['Agentic AI', 'Voice AI', 'LLM Chains', 'Vector Search'],
+        'Building AI-driven applications and pipelines that interpret requests, structure messy data, and automate multi-step analytical workflows.',
+      tags: ['LLM Workflows', 'Voice AI (Whisper)', 'Time-Series Models', 'Vector Search'],
     },
     {
       icon: Code,
-      title: 'Full-Stack Web & Backend',
+      title: 'Full-Stack Web & Operations Systems',
       description:
-        'Engineering fast, scalable applications in TypeScript, Vue 3, and Express, backed by clean PostgreSQL schemas and containerised Docker environments.',
-      tags: ['TypeScript', 'Vue 3', 'PostgreSQL', 'Express', 'Docker'],
+        'Engineering fast, reliable web applications and internal tooling in TypeScript, Vue 3, and Python, backed by clean PostgreSQL schemas and Docker environments.',
+      tags: ['TypeScript', 'Vue 3', 'Python / FastAPI', 'PostgreSQL', 'Docker'],
     },
     {
       icon: DeviceMobile,
-      title: 'Mobile & Embedded UI',
+      title: 'Mobile Apps & Hardware Integration',
       description:
-        'Delivering high-performance cross-platform mobile apps for iOS and Android alongside responsive touchscreen hardware interfaces in Flutter & Dart.',
-      tags: ['Flutter', 'Dart', 'iOS & Android', 'Embedded Hardware'],
+        'Developing cross-platform apps in Flutter & Dart alongside embedded touchscreen interfaces and local device telemetry.',
+      tags: ['Flutter', 'Dart', 'iOS & Android', 'Embedded Hardware', 'IoT Telemetry'],
     },
   ];
 
@@ -41,36 +41,39 @@ export default function ConsultingServices() {
         
         <div className="mb-14">
           <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight mb-3">
-            Engineering Approach & Product Principles
+            How I Work
           </h2>
           <p className="text-base text-zinc-300 max-w-[65ch] leading-relaxed">
-            Taking complex, undefined challenges from first principles to reliable, production-ready software that users love.
+            I work from the problem outward rather than from a predefined discipline inward. AI expands my execution range, while engineering discipline and problem definition lead the way.
           </p>
         </div>
 
-        {/* Lead Focus: Delivering Successful Products */}
+        {/* Lead Focus: Turning Ambiguity into Working Systems */}
         <div className="minimal-surface p-8 sm:p-10 mb-10 bg-[#111114]">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             
             <div className="lg:col-span-7">
               <div className="text-xs font-mono text-zinc-400 mb-3">
-                <span className="text-zinc-300 font-medium">Engineering Philosophy</span>
+                <span className="text-zinc-300 font-medium">Ways of Working</span>
               </div>
 
               <h3 className="text-2xl sm:text-3xl font-bold text-white tracking-tight mb-3">
-                From Undefined Idea to Working Software
+                Turning Ambiguity into Working Systems
               </h3>
 
-              <p className="text-sm sm:text-base text-zinc-300 leading-relaxed mb-6">
-                Whether exploring early-stage concepts, solving complex systems challenges, or refining user-facing interfaces, I ground every technical decision in first principles. The focus is always on building software that feels intuitive to users, looks refined, and is powered by clean, scalable architecture that works reliably in production.
+              <p className="text-sm sm:text-base text-zinc-300 leading-relaxed mb-4">
+                I enjoy problems where the path isn’t obvious yet. The projects I find most interesting usually start with a vague question and require figuring out what needs to exist before building it.
+              </p>
+              <p className="text-sm sm:text-base text-zinc-400 leading-relaxed mb-6">
+                Rather than starting with a narrow technology, I look at what the problem demands—whether that means software, AI models, physical hardware, or operational workflows. AI has made it easier to move between disciplines and iterate across a wider range of technical problems. I use that leverage to move ideas from early concepts to things people can actually use.
               </p>
 
               <div className="space-y-3 text-xs sm:text-sm text-zinc-400 border-l border-white/[0.1] pl-4">
                 <div>
-                  <strong className="text-white font-medium">Focus on Real Impact:</strong> Building what actually matters for users, moving rapidly from concept to working software that drives real-world outcomes.
+                  <strong className="text-white font-medium">Problem-Led Execution:</strong> Grounded in what actually needs to exist, moving quickly from early ambiguity to functional software and systems.
                 </div>
                 <div>
-                  <strong className="text-white font-medium">Production-Grade & Scalable:</strong> Writing clean, robust code across TypeScript, Vue, and Flutter that runs reliably in production and scales effortlessly as complexity grows.
+                  <strong className="text-white font-medium">Production Discipline:</strong> Writing clear, maintainable code across TypeScript, Vue, Flutter, and Python that performs reliably in real-world use.
                 </div>
               </div>
             </div>
@@ -83,18 +86,18 @@ export default function ConsultingServices() {
 
               <div className="space-y-3">
                 <div className="p-3.5 rounded bg-zinc-900/60 border border-white/[0.05]">
-                  <span className="font-sans font-semibold text-white block text-sm mb-0.5">1. Beautiful, Polish-First UX</span>
-                  <p className="font-sans text-xs text-zinc-400">Thoughtfully designed interfaces that look premium, feel responsive, and build immediate user trust.</p>
+                  <span className="font-sans font-semibold text-white block text-sm mb-0.5">1. Polished, User-First Experience</span>
+                  <p className="font-sans text-xs text-zinc-400">Thoughtfully designed interfaces that feel natural, respond instantly, and build immediate user trust.</p>
                 </div>
 
                 <div className="p-3.5 rounded bg-zinc-900/60 border border-white/[0.05]">
-                  <span className="font-sans font-semibold text-white block text-sm mb-0.5">2. Working, Production-Ready Code</span>
-                  <p className="font-sans text-xs text-zinc-400">Software built to work in the real world from day one, backed by scalable architecture and clean code.</p>
+                  <span className="font-sans font-semibold text-white block text-sm mb-0.5">2. Working, Reliable Systems</span>
+                  <p className="font-sans text-xs text-zinc-400">Software designed to be used beyond the prototype stage, with maintainable code, reliable data flows, and attention to how it behaves in real-world use.</p>
                 </div>
 
                 <div className="p-3.5 rounded bg-zinc-900/60 border border-white/[0.05]">
-                  <span className="font-sans font-semibold text-white block text-sm mb-0.5">3. First-Principles Velocity</span>
-                  <p className="font-sans text-xs text-zinc-400">Rapid execution with high autonomy, cutting through noise to ship high-quality software into hands quickly.</p>
+                  <span className="font-sans font-semibold text-white block text-sm mb-0.5">3. Broad Execution with AI Leverage</span>
+                  <p className="font-sans text-xs text-zinc-400">Using AI as leverage to prototype faster, bridge disciplines, and move from concept to working systems.</p>
                 </div>
               </div>
             </div>
@@ -141,14 +144,14 @@ export default function ConsultingServices() {
         <div className="minimal-surface p-6 sm:p-8 bg-[#0e0e11] flex flex-col sm:flex-row items-center justify-between gap-6">
           <div>
             <h3 className="text-base sm:text-lg font-bold text-zinc-100 mb-1">
-              Interested in a chat or want to grab a coffee?
+              Always up for a coffee.
             </h3>
             <p className="text-xs sm:text-sm text-zinc-400">
-              Always open to connecting with fellow engineers, discussing interesting technical problems, or talking through new ideas.
+              If you're in London and thinking through an ambiguous challenge or an early-stage idea, let's grab a coffee. Also down for a virtual coffee if remote—let's have a chat.
             </p>
           </div>
           <a
-            href="mailto:krzysztofwancerski@gmail.com?subject=Hello%20Kris"
+            href="mailto:krzysztofwancerski@gmail.com?subject=Coffee%20Chat"
             className="btn-press shrink-0 inline-flex items-center gap-2 px-5 py-3 rounded-md text-xs font-semibold bg-white text-zinc-950 hover:bg-zinc-200"
           >
             <span>Say Hello</span>

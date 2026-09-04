@@ -46,10 +46,10 @@ export default function FeaturedProjects() {
         {/* Section Header */}
         <div className="mb-14">
           <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight mb-3">
-            Featured Projects & Systems
+            Selected Work & Systems
           </h2>
           <p className="text-base text-zinc-300 max-w-[65ch] leading-relaxed">
-            Production systems spanning peer-reviewed agentic time-series AI, conversational medical assistants, user-centred Flutter mobile apps, and enterprise startup tooling.
+            Each project starts with an ambiguous or complex problem and requires working across engineering, design, and AI to build something people can actually use.
           </p>
         </div>
 
@@ -69,20 +69,20 @@ export default function FeaturedProjects() {
                   AskForecast
                 </h3>
                 <p className="text-base sm:text-lg text-zinc-200 mt-1 leading-snug font-medium">
-                  Democratising time-series forecasting via autonomous agentic AI — interactive web app.
+                  Making complex statistical forecasting accessible through an AI-driven, natural-language workflow.
                 </p>
               </div>
 
               <p className="text-sm sm:text-base text-zinc-400 leading-relaxed mb-6">
-                An interactive web application where users upload datasets and describe forecasting goals in natural language to receive automated, calibrated probabilistic predictions with generative reasoning reports.
+                Time-series forecasting is technically demanding and largely inaccessible to non-specialists. I designed and built AskForecast to turn plain-language questions and raw uploaded datasets into structured forecasting problems—interpreting the request, automatically selecting and running appropriate statistical forecasting models, and presenting forecasts with prediction intervals and explanations.
               </p>
 
               <div className="space-y-3 text-xs sm:text-sm text-zinc-300 mb-8 border-l border-white/[0.1] pl-4">
                 <div className="leading-relaxed">
-                  <strong className="text-white font-medium">ISF Montreal 2026 Plenary Presentation:</strong> Selected to deliver a 20-minute oral presentation sharing advanced forecasting AI research at the 44th International Symposium on Forecasting.
+                  <strong className="text-white font-medium">Automated Model Selection & Pipeline:</strong> Built an LLM workflow that interprets natural-language forecasting requests, structures the problem, automatically selects and executes statistical forecasting models, and calculates prediction intervals.
                 </div>
                 <div className="leading-relaxed">
-                  <strong className="text-white font-medium">Autonomous Agentic Workflow:</strong> Embedded AI agent parses natural language, orchestrates statistical ensembles, calculates prediction intervals, and synthesises diagnostic reports.
+                  <strong className="text-white font-medium">ISF Montreal 2026 Presentation:</strong> Selected for a 20-minute oral presentation at the 44th International Symposium on Forecasting, demonstrating how product design and AI interfaces can democratise technical forecasting workflows.
                 </div>
               </div>
 
@@ -99,11 +99,12 @@ export default function FeaturedProjects() {
                 </a>
 
                 <div className="flex flex-wrap gap-1.5">
-                  <span className="tech-pill">Agentic AI</span>
+                  <span className="tech-pill">LLM Workflows</span>
+                  <span className="tech-pill">Time-Series</span>
+                  <span className="tech-pill">Model Selection</span>
                   <span className="tech-pill">Python</span>
                   <span className="tech-pill">FastAPI</span>
                   <span className="tech-pill">Vue 3</span>
-                  <span className="tech-pill">Gemini API</span>
                 </div>
               </div>
             </div>
@@ -167,7 +168,7 @@ export default function FeaturedProjects() {
                   />
                 </a>
                 <div className="p-2.5 bg-[#0e0e11] border-t border-white/[0.08] text-[11px] font-mono text-zinc-400 flex items-center justify-between px-3">
-                  <span>Voice Diary & Clinical Synthesis</span>
+                  <span>Voice Journal & Synthesis</span>
                   <a
                     href="https://yarn.health"
                     target="_blank"
@@ -183,9 +184,9 @@ export default function FeaturedProjects() {
 
             <div className="lg:col-span-7 order-1 lg:order-2">
               <div className="flex flex-wrap items-center gap-2 mb-3 text-xs font-mono text-zinc-400">
-                <span className="text-zinc-300 font-medium">Conversational Mobile App Health Companion</span>
+                <span className="text-zinc-300 font-medium">Digital Health Product</span>
                 <span className="text-zinc-600">/</span>
-                <span>15 Real Clinical Users</span>
+                <span>15 User Test Participants</span>
               </div>
 
               <div className="mb-3">
@@ -193,20 +194,20 @@ export default function FeaturedProjects() {
                   Yarn Health
                 </h3>
                 <p className="text-base sm:text-lg text-zinc-200 mt-1 leading-snug font-medium">
-                  A smart voice & text diary helping chronic patients capture symptoms and prepare for doctor visits.
+                  Turning everyday conversations and voice notes into structured summaries for chronic illness.
                 </p>
               </div>
 
               <p className="text-sm sm:text-base text-zinc-400 leading-relaxed mb-6">
-                A conversational mobile app and health journal that helps patients capture and structure complex symptoms between clinical appointments via voice and text, producing structured clinical summaries for doctors.
+                People living with long-term conditions often struggle to track and communicate symptoms between appointments. Rather than building a conventional tracking form, I developed a voice-first mobile journal that lets users speak naturally about their day, using AI to turn conversational voice notes into structured summaries that support more productive consultations.
               </p>
 
               <div className="space-y-3 text-xs sm:text-sm text-zinc-300 mb-8 border-l border-white/[0.1] pl-4">
                 <div className="leading-relaxed">
-                  <strong className="text-white font-medium">Validated in Clinical Testing:</strong> Completed user trials with 15 patients navigating complex chronic health journeys to refine voice interaction latency and summary accuracy.
+                  <strong className="text-white font-medium">Streaming Voice Transcription & Extraction:</strong> Implemented low-latency speech transcription with OpenAI Whisper alongside an extraction pipeline that organises longitudinal symptom trends without burdening the user.
                 </div>
                 <div className="leading-relaxed">
-                  <strong className="text-white font-medium">Dual-Model Agentic Architecture:</strong> Real-time streaming voice transcription via Whisper for fluid conversational check-ins, coupled with a deep reasoning agent for longitudinal symptom synthesis.
+                  <strong className="text-white font-medium">Tested with 15 Participants:</strong> Completed user testing with 15 people managing long-term conditions to refine conversational speech latency and ensure summary clarity for medical consultations.
                 </div>
               </div>
 
@@ -223,12 +224,12 @@ export default function FeaturedProjects() {
                 </a>
 
                 <div className="flex flex-wrap gap-1.5">
-                  <span className="tech-pill">Agentic AI</span>
                   <span className="tech-pill">Flutter</span>
                   <span className="tech-pill">Dart</span>
-                  <span className="tech-pill">Nuxt UI</span>
+                  <span className="tech-pill">Voice AI</span>
                   <span className="tech-pill">Whisper</span>
-                  <span className="tech-pill">Vector Search</span>
+                  <span className="tech-pill">Mobile UX</span>
+                  <span className="tech-pill">Health Data</span>
                 </div>
               </div>
             </div>
@@ -243,24 +244,27 @@ export default function FeaturedProjects() {
           <div className="minimal-surface p-6 sm:p-8 bg-[#111114] flex flex-col justify-between">
             <div>
               <div className="flex items-center justify-between gap-2 mb-3 text-xs font-mono text-zinc-400">
-                <span className="text-zinc-300 font-medium">Mobile & Embedded Hardware</span>
+                <span className="text-zinc-300 font-medium">Hardware-Connected Software</span>
                 <span>Tewke Ltd.</span>
               </div>
 
-              <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight mb-3">
-                User-Centred Mobile Apps & Embedded Touchscreen UI
+              <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight mb-2">
+                Smart-Home Mobile Apps & Embedded Touchscreen Interfaces
               </h3>
+              <p className="text-sm font-medium text-zinc-300 mb-4">
+                Bridging physical smart-home hardware and daily user interaction.
+              </p>
 
               <p className="text-sm text-zinc-400 leading-relaxed mb-6">
-                Designing and shipping cross-platform mobile apps and touch-screen embedded device interfaces centered entirely on <strong>Flutter and Dart</strong>.
+                At Tewke, I work across the boundary between software and physical products. I designed and shipped cross-platform mobile applications and on-device touchscreen interfaces, giving users direct, real-time control over their physical environment.
               </p>
 
               <div className="space-y-3 text-xs sm:text-sm text-zinc-300 mb-6 border-l border-white/[0.1] pl-4">
                 <div className="leading-relaxed">
-                  <strong className="text-white font-medium">Unified Flutter Architecture:</strong> Responsive mobile experiences across iOS and Android alongside dedicated touchscreen embedded hardware controls from a single codebase.
+                  <strong className="text-white font-medium">Unified Multi-Platform Architecture:</strong> Built a unified Flutter application running across iOS, Android, and embedded touchscreen hardware, coordinating local network telemetry with device state synchronization.
                 </div>
                 <div className="leading-relaxed">
-                  <strong className="text-white font-medium">Local Hardware Telemetry:</strong> Engineered local networking and real-time device synchronisation for fluid, zero-latency smart-home automation.
+                  <strong className="text-white font-medium">Shipped to Real Users:</strong> Owned interface features end-to-end—from initial interaction design through user testing to production deployment on commercial smart-home hardware.
                 </div>
               </div>
             </div>
@@ -269,7 +273,7 @@ export default function FeaturedProjects() {
               <span className="tech-pill">Flutter</span>
               <span className="tech-pill">Dart</span>
               <span className="tech-pill">iOS & Android</span>
-              <span className="tech-pill">Embedded Touchscreen</span>
+              <span className="tech-pill">Embedded Linux</span>
               <span className="tech-pill">Device Telemetry</span>
             </div>
           </div>
@@ -278,24 +282,27 @@ export default function FeaturedProjects() {
           <div className="minimal-surface p-6 sm:p-8 bg-[#111114] flex flex-col justify-between">
             <div>
               <div className="flex items-center justify-between gap-2 mb-3 text-xs font-mono text-zinc-400">
-                <span className="text-zinc-300 font-medium">Internal Operations & Scaling Tooling</span>
+                <span className="text-zinc-300 font-medium">Internal Operations & Tooling</span>
                 <span>1,000+ Devices</span>
               </div>
 
-              <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight mb-3">
-                Manufacturing & Operations Software for Scaling Hardware
+              <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight mb-2">
+                Software for Manufacturing Operations
               </h3>
+              <p className="text-sm font-medium text-zinc-300 mb-4">
+                Full-stack operations software to scale physical hardware assembly.
+              </p>
 
               <p className="text-sm text-zinc-400 leading-relaxed mb-6">
-                Architecting custom full-stack operations software and automated quality control to streamline hardware assembly and facilitate production scaling.
+                Scaling physical hardware requires reliable operational systems. I built the full-stack internal platform that orchestrates assembly tracking, inventory deduction, and device provisioning across our manufacturing line.
               </p>
 
               <div className="space-y-3 text-xs sm:text-sm text-zinc-300 mb-6 border-l border-white/[0.1] pl-4">
                 <div className="leading-relaxed">
-                  <strong className="text-white font-medium">Supported 1,000+ Production Devices:</strong> Core internal system at Tewke Ltd. managing multi-device production tracking, parts deduction, and automated device provisioning.
+                  <strong className="text-white font-medium">Automated Inspection & Workflow Engine:</strong> Built custom camera-assisted quality checks at assembly checkpoints to catch build defects early, integrated with relational schema tracking component lifecycles.
                 </div>
                 <div className="leading-relaxed">
-                  <strong className="text-white font-medium">Camera Quality Control:</strong> Integrated photo validation at critical assembly stages to isolate build defects immediately and ensure rigorous manufacturing auditability.
+                  <strong className="text-white font-medium">Used in Production Workflow for 1,000+ Devices:</strong> Active core platform at Tewke Ltd., replacing previously manual tracking steps with automated inventory deduction and quality-control workflows.
                 </div>
               </div>
             </div>

@@ -3,7 +3,7 @@ import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import FeaturedProjects from './components/FeaturedProjects';
-import ConsultingServices from './components/ConsultingServices';
+import HowIWork from './components/HowIWork';
 import Experience from './components/Experience';
 import Credentials from './components/Credentials';
 import Contact from './components/Contact';
@@ -20,7 +20,7 @@ function EngineeringPortfolio() {
       <main className="relative z-10">
         <Hero />
         <FeaturedProjects />
-        <ConsultingServices />
+        <HowIWork />
         <Experience />
         <Credentials />
         <Contact />
@@ -107,7 +107,7 @@ export default function App() {
       contextualLink.setAttribute('title', 'Academic STEM Tutoring Practice Dossier');
     } else {
       contextualLink.setAttribute('href', '/llms-software.txt');
-      contextualLink.setAttribute('title', 'Software, Mobile & AI Engineering Dossier');
+      contextualLink.setAttribute('title', 'Engineering, Design & AI Dossier');
     }
   }, [location.pathname, isTutoringSubdomain]);
 

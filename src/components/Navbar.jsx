@@ -29,7 +29,7 @@ export default function Navbar() {
               Krzysztof (Kris) Wancerski
             </span>
             <span className="text-[11px] font-mono text-zinc-500">
-              {isTutoring ? 'STEM Academic Tutoring' : 'Full-Stack, Mobile & AI Design Engineer'}
+              {isTutoring ? 'STEM Academic Tutoring' : 'Engineering · Design · AI'}
             </span>
           </div>
         </div>

@@ -50,7 +50,7 @@ export default function Credentials() {
             Academic Honours & Technical Stack
           </h2>
           <p className="text-base text-zinc-300 max-w-[65ch] leading-relaxed">
-            Imperial College London academic distinctions and production technologies leveraged across engineering engagements.
+            Imperial College London academic distinctions and technologies used across engineering and product engagements.
           </p>
         </div>
 

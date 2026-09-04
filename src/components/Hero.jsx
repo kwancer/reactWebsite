@@ -7,108 +7,104 @@ import {
 } from '@phosphor-icons/react';
 
 const PORTFOLIO_MARKDOWN = `# Krzysztof (Kris) Wancerski — Portfolio & Dossier
-> Full-Stack, Mobile & AI Design Engineer based in London, UK.
+> I turn ideas into real things.
+> Engineer working across engineering, design and AI.
+> London, UK | Email: krzysztofwancerski@gmail.com | Portfolio: https://kwancerski.page
 
-## Contact & Direct Channels
+## Contact & Let's Have a Coffee
 - **Direct Email**: krzysztofwancerski@gmail.com
 - **LinkedIn Profile**: https://www.linkedin.com/in/kwancerski/
-- **Portfolio Website**: https://kwancerski.page
-- **Featured Projects**: https://kwancerski.page#work
-- **Engineering Approach**: https://kwancerski.page#approach
-- **Academic Tutoring Portal**: https://kwancerski.page/tutoring
 - **Location**: London, UK (West London)
-- **Timezone**: GMT (UTC+1)
+- **Portfolio Website**: https://kwancerski.page
+- **Selected Work**: https://kwancerski.page#work
+- **How I Work**: https://kwancerski.page#approach
+- **Academic Tutoring Portal**: https://kwancerski.page/tutoring
+- **Coffee & Conversations**: Always open to talking through ambiguous challenges, engineering systems, or early-stage product ideas over coffee in London or a call worldwide.
 
 ---
 
 ## Executive Summary
-First-class MEng graduate in Design Engineering from Imperial College London (ranked #2 in the world in QS World University Rankings). Technical generalist taking complex, undefined challenges from first principles to production software across TypeScript & Vue, Flutter & Dart, and applied Agentic AI.
+I work across engineering, design and AI to take ambiguous problems from early ideas to working systems. Grounded in a First-Class MEng in Design Engineering from Imperial College London (ranked #2 globally in QS World University Rankings).
 
-Combines rigorous engineering fundamentals with customer-facing product delivery, shipping software across venture-backed healthcare AI, commercial hardware operations (1,000+ devices), and international AI research presentations.
-
----
-
-## Engineering & Academic Background
-- **Design Engineering Background (Imperial College London)**: A fusion of user needs, entrepreneurship, innovation, technology, and software — suited perfectly for the AI age. Awarded Faculty of Engineering Dean's List for all 4 consecutive undergraduate years (Top 10% of cohort). Ranked #2 globally (QS).
-- **Mobile App & Embedded UI (Tewke Ltd.)**: Flutter for experience in app development, shipping features with customers in real world, leading whole projects and having whole new features end to end.
-- **Full-Stack Systems (Tewke Ltd.)**: Working from a brief, internal company needs, and regulatory requirements, supporting 1,000+ manufacturing devices.
-- **ISF Montreal 2026 (Oral Presentation)**: Delivering a 20-minute presentation on an autonomous agentic AI web app that democratises time-series forecasting for people who otherwise couldn't access advanced predictive modeling.
+I enjoy problems where the path isn’t obvious yet. Rather than starting from a predefined technology, I start with what needs to exist—combining software, AI, physical hardware, and operational systems to deliver working products used in the real world.
 
 ---
 
-## Featured Production Projects
+## Execution Range Across Disciplines
+- **Design Engineering Foundations (Imperial College London)**: First-Class MEng (Dean's List all 4 consecutive years, top 10% of cohort). Trained across engineering, design, software and physical product development, with a focus on turning human needs and technical constraints into working systems.
+- **Smart-Home & Embedded Software (Tewke Ltd.)**: Designed and shipped cross-platform mobile apps and touchscreen embedded device interfaces in Flutter/Dart, bridging hardware telemetry with real users.
+- **Software for Manufacturing Operations (Tewke Ltd.)**: Built full-stack tracking, automated parts deduction, and camera-assisted quality control used in the active production workflow for 1,000+ devices.
+- **AI Workflows & Time-Series (AskForecast)**: Selected for a 20-minute oral presentation at the 44th International Symposium on Forecasting (ISF Montreal 2026) for an AI application making statistical time-series forecasting accessible.
 
-### 1. AskForecast — Agentic Time-Series Forecasting
+---
+
+## Selected Work & Systems
+
+### 1. AskForecast — Natural-Language Time-Series Forecasting
 - **URL**: https://askforecast.app
 - **Classification**: Imperial Master's Project / Oral Presentation at ISF Montreal 2026
-- **Headline**: Democratising time-series forecasting via autonomous agentic AI — interactive web app.
-- **Overview**: An interactive web application where users upload complex datasets and describe forecasting goals in natural language to receive automated, calibrated probabilistic predictions with generative reasoning reports.
-- **Key Technical Accomplishments**:
-  - **ISF Montreal 2026 Presentation**: Selected to deliver a 20-minute oral presentation sharing advanced forecasting AI research at the 44th International Symposium on Forecasting.
-  - **Autonomous Agentic Workflow**: Embedded AI agent parses natural language, orchestrates statistical ensembles, calculates prediction intervals, and synthesises diagnostic reports.
-- **Technologies**: Agentic AI, Python, FastAPI, Vue 3, Gemini API, Probabilistic Time-Series Models.
+- **Headline**: Making complex statistical forecasting accessible through an AI-driven, natural-language workflow.
+- **Overview**: Time-series forecasting is technically demanding and largely inaccessible to non-specialists. I designed and built AskForecast to turn plain-language questions and raw uploaded datasets into structured forecasting problems—interpreting the request, automatically selecting and running appropriate statistical forecasting models, and presenting forecasts with prediction intervals and explanations.
+- **Highlights**:
+  - **ISF Montreal 2026 Presentation**: Selected for a 20-minute oral presentation at the 44th International Symposium on Forecasting, demonstrating how product design and AI interfaces can democratise technical forecasting workflows.
+  - **Automated Model Selection Pipeline**: Built an LLM workflow that interprets natural-language forecasting requests, structures the problem, automatically selects and executes statistical forecasting models, and calculates prediction intervals.
+- **Technologies**: LLM Workflows, Time-Series Forecasting, Model Selection, Python, FastAPI, Vue 3.
 
-### 2. Yarn Health — Conversational Voice AI Companion
+### 2. Yarn Health — Conversational Voice Journal for Chronic Illness
 - **URL**: https://yarn.health
-- **Classification**: Venture-Backed Healthcare Startup / Mobile & Voice AI
-- **Headline**: Conversational Voice AI Companion for Clinical Trials.
-- **Overview**: Voice-first mobile application designed to capture rich, unstructured patient quality-of-life narratives during clinical oncology trials.
-- **Key Technical Accomplishments**:
-  - **Ultra Low-Latency Streaming**: Integrated OpenAI Whisper and voice synthesis for empathetic, real-time clinical dialogue.
-  - **Multi-Modal Narrative Engine**: Transforms conversational audio into structured, validated clinical endpoints.
-  - **Clinical Pilot Validation**: Successfully deployed and validated across 15 real clinical users in live trials.
-- **Technologies**: Flutter, Dart, OpenAI Whisper, Real-Time Audio Streaming, HealthTech APIs.
+- **Classification**: Digital Health Product / 15 User Test Participants
+- **Headline**: Turning everyday conversations and voice notes into structured summaries for chronic illness.
+- **Overview**: People living with long-term conditions often struggle to track and communicate symptoms between appointments. Rather than building a conventional tracking form, I developed a voice-first mobile journal that lets users speak naturally about their day, using AI to turn conversational voice notes into structured summaries that support more productive consultations.
+- **Highlights**:
+  - **Streaming Voice Transcription & Extraction**: Implemented low-latency speech transcription with OpenAI Whisper alongside an extraction pipeline that organises longitudinal symptom trends without burdening the user.
+  - **Tested with 15 Participants**: Completed user testing with 15 people managing long-term conditions to refine conversational speech latency and ensure summary clarity for medical consultations.
+- **Technologies**: Flutter, Dart, Voice AI, Speech-to-Text (Whisper), Mobile UX, Health Data.
 
-### 3. Mobile Apps & Embedded Touchscreen UI (Tewke Ltd.)
-- **Classification**: Production Hardware Ecosystem / Mobile & Embedded Hardware
-- **Headline**: User-Centred Mobile Apps & Embedded Touchscreen UI.
-- **Overview**: Designing and shipping cross-platform mobile apps and touch-screen embedded device interfaces centered entirely on Flutter and Dart.
-- **Key Technical Accomplishments**:
-  - **Unified Flutter Architecture**: Responsive mobile experiences across iOS and Android alongside dedicated touchscreen embedded hardware controls from a single codebase.
-  - **Local Hardware Telemetry**: Engineered local networking and real-time device synchronisation for fluid, zero-latency smart-home automation.
-- **Technologies**: Flutter, Dart, iOS & Android, Embedded Touchscreen, Device Telemetry.
+### 3. Smart-Home Mobile Apps & Embedded Touchscreen Interfaces (Tewke Ltd.)
+- **Classification**: Hardware-Connected Software / Tewke Ltd.
+- **Headline**: Bridging physical smart-home hardware and daily user interaction.
+- **Overview**: At Tewke, I work across the boundary between software and physical products. I designed and shipped cross-platform mobile applications and on-device touchscreen interfaces, giving users direct, real-time control over their physical environment.
+- **Highlights**:
+  - **Unified Multi-Platform Architecture**: Built a unified Flutter application running across iOS, Android, and embedded touchscreen hardware, coordinating local network telemetry with device state synchronization.
+  - **Shipped to Real Users**: Owned interface features end-to-end—from initial interaction design through user testing to production deployment on commercial smart-home hardware.
+- **Technologies**: Flutter, Dart, iOS & Android, Embedded Linux, Device Telemetry, State Synchronization.
 
-### 4. Manufacturing & Operations Software for Scaling Hardware (Tewke Ltd.)
-- **Classification**: Internal Operations & Scaling Tooling / 1,000+ Production Devices
-- **Headline**: Manufacturing & Operations Software for Scaling Hardware.
-- **Overview**: Architecting custom full-stack operations software and automated quality control to streamline hardware assembly and facilitate production scaling.
-- **Key Technical Accomplishments**:
-  - **Supported 1,000+ Production Devices**: Core internal system at Tewke Ltd. managing multi-device production tracking, parts deduction, and automated device provisioning.
-  - **Camera Quality Control**: Integrated photo validation at critical assembly stages to isolate build defects immediately and ensure rigorous manufacturing auditability.
-- **Technologies**: TypeScript, Vue.js, Express, PostgreSQL, Drizzle ORM, Docker.
-
-### Imperial Physical Computing & Engineering Archive
-- **Robotics & Embedded Microcontrollers**: Autonomous rover pathfinding, PID motion control, custom PCB design, and C++ firmware.
-- **Fluid Dynamics Simulations**: Finite-element modeling and computational fluid simulations for aerodynamic structures.
+### 4. Software for Manufacturing Operations (Tewke Ltd.)
+- **Classification**: Internal Operations & Tooling / 1,000+ Production Devices
+- **Headline**: Full-stack operations software to scale physical hardware assembly.
+- **Overview**: Scaling physical hardware requires reliable operational systems. I built the full-stack internal platform that orchestrates assembly tracking, inventory deduction, and device provisioning across our manufacturing line.
+- **Highlights**:
+  - **Used in Production Workflow for 1,000+ Devices**: Active core platform at Tewke Ltd., replacing previously manual tracking steps with automated inventory deduction and quality-control workflows.
+  - **Automated Inspection & Workflow Engine**: Built custom camera-assisted quality checks at assembly checkpoints to catch build defects early, integrated with a relational schema tracking component lifecycles.
+- **Technologies**: TypeScript, Vue.js, Express, PostgreSQL, Drizzle ORM, Docker, Operations Tooling.
 
 ---
 
-## Engineering Approach & Product Principles
+## How I Work & Product Principles
 
-### Philosophy & Way of Working
-Taking complex, undefined challenges from first principles to reliable, production-ready software that users love. Grounding every technical decision in first principles, moving rapidly from concept to working software that drives real-world outcomes.
+### Philosophy
+I work from the problem outward rather than from a predefined discipline inward. AI expands my execution range, while engineering discipline and problem definition lead the way.
+
+I enjoy problems where the path isn't obvious yet. The projects I find most interesting usually start with a vague question and require figuring out what needs to exist before building it.
+
+Rather than starting with a narrow technology, I look at what the problem demands—whether that means software, AI models, physical hardware, or operational workflows. AI has made it easier to move between disciplines and iterate across a wider range of technical problems. I use that leverage to move ideas from early concepts to things people can actually use.
 
 ### Core Tenets
-1. **Beautiful, Polish-First UX**: Thoughtfully designed interfaces that look premium, feel responsive, and build immediate user trust.
-2. **Working, Production-Ready Code**: Software built to work in the real world from day one, backed by scalable architecture and clean code across TypeScript, Vue, and Flutter.
-3. **First-Principles Velocity**: Rapid execution with high autonomy, cutting through noise to ship high-quality software into hands quickly.
-
-### Technical Capability Pillars
-- **Agentic & Multi-Modal AI**: Architecting autonomous AI agents, real-time voice streaming with Whisper, and deep reasoning models for complex document and clinical synthesis. (Stack: Agentic AI, Voice AI, LLM Chains, Vector Search).
-- **Full-Stack Web & Backend**: Engineering fast, scalable applications in TypeScript, Vue 3, and Express, backed by clean PostgreSQL schemas and containerised Docker environments. (Stack: TypeScript, Vue 3, PostgreSQL, Express, Docker).
-- **Mobile & Embedded UI**: Delivering high-performance cross-platform mobile apps for iOS and Android alongside responsive touchscreen hardware interfaces in Flutter & Dart. (Stack: Flutter, Dart, iOS & Android, Embedded Hardware).
+1. **Polished, User-First Experience**: Thoughtfully designed interfaces that feel natural, respond instantly, and build immediate user trust.
+2. **Working, Reliable Systems**: Software designed to be used beyond the prototype stage, with maintainable code, reliable data flows, and attention to how it behaves in real-world use.
+3. **Broad Execution with AI Leverage**: Using AI as leverage to prototype faster, bridge disciplines, and move from concept to working systems.
 
 ---
 
 ## Experience & Career Trajectory
 
 ### 1. Full-Stack Software Engineer — Tewke Ltd.
-- **Tenure**: Apr 2025 – Present (Promoted Aug 2026)
+- **Tenure**: Apr 2025 – Present
 - **Location**: London, UK | Full-Time
 - **Company URL**: https://tewke.com
-- **Scope**: Technical ownership across internal manufacturing operations, full-stack backend systems, and cross-platform mobile & embedded device features.
+- **Scope**: Technical ownership spanning internal manufacturing operations, full-stack web platforms, and cross-platform mobile & embedded features. Working across software and physical operations to take a commercial smart-home product from design to scale.
 - **Impact**:
-  - Architected core internal operations software managing multi-device production tracking, automated parts deduction, and automated camera QC for 1,000+ production devices.
+  - Built core operations software managing multi-device production tracking, automated parts deduction, and camera quality control used across 1,000+ production devices.
   - Shipped smart-home mobile application features and touchscreen embedded device interfaces in Flutter and Dart.
 - **Stack**: TypeScript, Vue.js, Flutter, Dart, Express, PostgreSQL, Docker.
 
@@ -116,7 +112,7 @@ Taking complex, undefined challenges from first principles to reliable, producti
 - **Tenure**: 2022 – 2026
 - **Location**: London, UK
 - **Institution URL**: https://www.imperial.ac.uk
-- **Distinction**: First Class trajectory. Awarded Faculty Dean's List for all 4 consecutive undergraduate years (Top 10% of cohort). Imperial College London is ranked #2 in the world (QS).
+- **Distinction**: First-Class Honours trajectory. Faculty Dean's List for all 4 consecutive years (top 10% of cohort). Imperial College London is ranked #2 in the world (QS). An engineering discipline fusing mechanical engineering, electronics, computer science, and user-centred design to turn complex technical innovations into viable real-world products.
 
 ### 3. Undergraduate Teaching Assistant — Imperial College London
 - **Tenure**: Oct 2023 – Jun 2024
@@ -132,24 +128,14 @@ Taking complex, undefined challenges from first principles to reliable, producti
 ---
 
 ## Academic Honours & Distinctions
-
-### 1. Dean’s List (All 4 Consecutive Years)
-- **Awarding Body**: Imperial College London, Faculty of Engineering
-- **URL**: https://www.imperial.ac.uk/engineering/study/undergraduate/prizes/
-- **Distinction**: Top 10% Cohort • All 4 Years
-- **Detail**: Awarded every single academic year of university at Imperial College London (#2 university globally in QS World Rankings). The Dean’s List recognises undergraduate engineers in the top 10% of their cohort who achieved a continuous first-class standard (70%+) across all four years.
-
-### 2. IET Future Talent Award
-- **Awarding Body**: Institution of Engineering and Technology (IET)
-- **URL**: https://www.theiet.org/impact-society/awards-scholarships/future-talent-awards/
-- **Distinction**: National Engineering Scholarship
-- **Detail**: Prestigious national engineering scholarship and multi-year bursary supported by the David Family Foundation, awarded to exceptional engineering students recognised for outstanding academic promise, technical innovation, and future engineering leadership.
+- **Dean’s List (All 4 Consecutive Years)**: Imperial College London, Faculty of Engineering. Top 10% Cohort • All 4 Years.
+- **IET Future Talent Award**: Institution of Engineering and Technology. National Engineering Scholarship supported by the David Family Foundation.
 
 ---
 
 ## Technical Stack & Production Tooling Matrix
 - **Languages**: TypeScript, Python, Dart, JavaScript, Vue.js, C++, SQL, Bash
-- **Frameworks & AI**: Vue 3 / Nuxt, Flutter (BLoC state management), FastAPI, Express, Drizzle ORM, React
+- **Frameworks & AI**: Vue 3 / Nuxt, Flutter (BLoC), FastAPI, Express, Drizzle ORM, React
 - **Systems & Infrastructure**: PostgreSQL, Docker, Supabase, Linux CLI, Git & GitLab, CI/CD pipelines
 `;
 
@@ -209,33 +195,69 @@ export default function Hero() {
           {/* Left Column: Primary Identity & Proposition (col-span-7) */}
           <div className="lg:col-span-7">
             
-            {/* Identity & Headshot (Guaranteed 2-line layout to prevent jumping) */}
-            <div className="flex items-center gap-5 sm:gap-6 mb-7">
+            {/* Copy in Markdown Button (justified left above name) */}
+            <div className="flex justify-start mb-4">
+              <div className="relative group">
+                <button
+                  onClick={handleCopyMarkdown}
+                  className="btn-press inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-zinc-900/90 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-white/10 text-[11px] font-mono shadow-sm"
+                  aria-label="Copy in Markdown for AI agent"
+                >
+                  {copiedMarkdown ? (
+                    <>
+                      <Check size={12} weight="bold" className="text-zinc-200" />
+                      <span className="text-zinc-200 font-medium">Copied!</span>
+                    </>
+                  ) : (
+                    <>
+                      <Copy size={12} />
+                      <span>Copy in Markdown</span>
+                    </>
+                  )}
+                </button>
+
+                {/* Tooltip on hover */}
+                <div className="pointer-events-none absolute bottom-full left-0 mb-2 hidden group-hover:block z-30 w-56 p-2 rounded-md bg-zinc-900 border border-white/15 text-[11px] text-zinc-300 shadow-xl font-sans normal-case leading-tight">
+                  Copy the contents of this page for use in your preferred AI agent
+                </div>
+              </div>
+            </div>
+
+            {/* Identity & Headshot */}
+            <div className="flex items-center gap-4 sm:gap-5 mb-6">
               <img 
                 src="/me.png" 
                 alt="Krzysztof Wancerski" 
-                className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover border border-white/15 shrink-0"
+                className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover border border-white/15 shrink-0"
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
                 }}
               />
               <div>
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white tracking-tightest leading-[1.05]">
-                  <span className="block">
-                    <span>{displayedFirst}</span>
-                    <span className="inline-block w-[2px] h-[0.8em] bg-blue-400 ml-1 translate-y-[2px] animate-pulse" />
-                  </span>
-                  <span className="block text-zinc-300">Wancerski</span>
-                </h1>
-                <p className="text-xs sm:text-sm font-mono text-zinc-400 mt-1.5">
-                  Full-Stack, Mobile & AI Design Engineer <span className="text-zinc-600">/</span> London, UK
+                <div className="text-base sm:text-lg font-semibold text-white tracking-tight flex items-center">
+                  <span>{displayedFirst}</span>
+                  <span className="inline-block w-[2px] h-[0.8em] bg-blue-400 ml-1 translate-y-[1px] animate-pulse" />
+                  <span className="ml-1 text-zinc-300">Wancerski</span>
+                </div>
+                <p className="text-xs font-mono text-zinc-400 mt-0.5">
+                  Engineering &bull; Design &bull; AI <span className="text-zinc-600">/</span> London, UK
                 </p>
               </div>
             </div>
 
-            {/* Value Proposition */}
-            <p className="text-base sm:text-lg text-zinc-300 leading-relaxed font-normal mb-8 max-w-[54ch]">
-              First-class MEng graduate from Imperial College London (ranked #2 globally). Technical generalist taking complex, undefined challenges from first principles to production software across <strong className="text-white font-medium">TypeScript & Vue</strong>, <strong className="text-white font-medium">Flutter & Dart</strong>, and applied <strong className="text-white font-medium">Agentic AI</strong>.
+            {/* Primary Brand Headline */}
+            <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-semibold text-white tracking-tightest leading-[1.08] mb-5 max-w-[15ch]">
+              I turn ideas into real things.
+            </h1>
+
+            {/* Supporting Positioning Statement */}
+            <p className="text-base sm:text-lg text-zinc-300 leading-relaxed font-normal mb-3 max-w-[54ch]">
+              I work across engineering, design and AI to take ambiguous problems from early ideas to working systems.
+            </p>
+
+            {/* Human Mindset & Credential */}
+            <p className="text-sm text-zinc-400 leading-relaxed font-normal mb-8 max-w-[54ch]">
+              I enjoy problems where the path isn’t obvious yet. I hold a First-Class MEng in Design Engineering from Imperial College London.
             </p>
 
             {/* Disciplined CTAs */}
@@ -260,80 +282,51 @@ export default function Hero() {
 
           {/* Right Column: Grounded Track Record Overview (col-span-5) */}
           <div className="lg:col-span-5 flex flex-col">
-            
-            {/* Copy button outside of the card, aligned with the right side */}
-            <div className="flex justify-end mb-2.5">
-              <div className="relative group">
-                <button
-                  onClick={handleCopyMarkdown}
-                  className="btn-press inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-zinc-900/90 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-white/10 text-[11px] font-mono shadow-sm"
-                  aria-label="Copy in Markdown for AI agent"
-                >
-                  {copiedMarkdown ? (
-                    <>
-                      <Check size={12} weight="bold" className="text-zinc-200" />
-                      <span className="text-zinc-200 font-medium">Copied!</span>
-                    </>
-                  ) : (
-                    <>
-                      <Copy size={12} />
-                      <span>Copy in Markdown</span>
-                    </>
-                  )}
-                </button>
-
-                {/* Tooltip on hover */}
-                <div className="pointer-events-none absolute bottom-full right-0 mb-2 hidden group-hover:block z-30 w-56 p-2 rounded-md bg-zinc-900 border border-white/15 text-[11px] text-zinc-300 shadow-xl font-sans normal-case leading-tight">
-                  Copy the contents of this page for use in your preferred AI agent
-                </div>
-              </div>
-            </div>
-
             <div className="minimal-surface p-6 sm:p-7 bg-[#111114]">
               
               <div className="pb-3.5 mb-5 border-b border-white/[0.08] text-xs font-mono text-zinc-400">
-                <span className="font-medium text-zinc-300">Engineering & Academic Background</span>
+                <span className="font-medium text-zinc-300">Execution Range Across Disciplines</span>
               </div>
 
               <div className="space-y-4 text-xs">
               
               <div className="pb-3.5 border-b border-white/[0.06]">
                 <div className="flex items-center justify-between gap-2 mb-1">
-                  <span className="font-semibold text-white text-sm">Design Engineering Background</span>
+                  <span className="font-semibold text-white text-sm">Design Engineering Foundations</span>
                   <span className="font-mono text-[11px] text-zinc-400">Imperial College</span>
                 </div>
                 <p className="text-zinc-400 leading-relaxed">
-                  Fusion of user needs, entrepreneurship, innovation, technology, and software. Suited perfectly for the AI age.
+                  First-Class MEng (Dean's List all 4 years). Trained across engineering, design, software and physical product development, with a focus on turning human needs and technical constraints into working systems.
                 </p>
               </div>
 
               <div className="pb-3.5 border-b border-white/[0.06]">
                 <div className="flex items-center justify-between gap-2 mb-1">
-                  <span className="font-semibold text-white text-sm">Mobile App & Embedded UI</span>
+                  <span className="font-semibold text-white text-sm">Smart-Home & Embedded Software</span>
                   <span className="font-mono text-[11px] text-zinc-400">Tewke Ltd.</span>
                 </div>
                 <p className="text-zinc-400 leading-relaxed">
-                  Flutter for experience in app development, shipping features with customers in real world, leading whole projects and having whole new features end to end.
+                  Designed and shipped cross-platform mobile apps and touchscreen embedded device interfaces in Flutter/Dart, bridging hardware telemetry with real users.
                 </p>
               </div>
 
               <div className="pb-3.5 border-b border-white/[0.06]">
                 <div className="flex items-center justify-between gap-2 mb-1">
-                  <span className="font-semibold text-white text-sm">Full-Stack Systems</span>
-                  <span className="font-mono text-[11px] text-zinc-400">Tewke Ltd.</span>
+                  <span className="font-semibold text-white text-sm">Software for Manufacturing Operations</span>
+                  <span className="font-mono text-[11px] text-zinc-400">1,000+ Devices</span>
                 </div>
                 <p className="text-zinc-400 leading-relaxed">
-                  Working from a brief, internal company needs, and regulatory requirements.
+                  Built full-stack tracking, automated parts deduction, and camera-assisted quality control used in the active production workflow for 1,000+ devices.
                 </p>
               </div>
 
               <div>
                 <div className="flex items-center justify-between gap-2 mb-1">
-                  <span className="font-semibold text-white text-sm">ISF Montreal 2026</span>
-                  <span className="font-mono text-[11px] text-zinc-400">Oral Presentation</span>
+                  <span className="font-semibold text-white text-sm">AI Workflows & Time-Series</span>
+                  <span className="font-mono text-[11px] text-zinc-400">ISF Montreal 2026</span>
                 </div>
                 <p className="text-zinc-400 leading-relaxed">
-                  Delivering a 20-minute presentation on an autonomous agentic AI web app that democratises time-series forecasting for people who otherwise couldn't access advanced predictive modeling.
+                  Selected for an oral presentation at the 44th International Symposium on Forecasting for an AI application making statistical time-series forecasting accessible.
                 </p>
               </div>
 

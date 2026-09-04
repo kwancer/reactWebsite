@@ -22,11 +22,14 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto px-6">
         
         <div className="mb-14">
+          <div className="text-xs font-mono text-zinc-400 mb-2">
+            <span className="text-zinc-300 font-medium">Get in Touch</span>
+          </div>
           <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight mb-3">
-            Get in Touch
+            Let's Have a Coffee
           </h2>
           <p className="text-base text-zinc-300 max-w-[65ch] leading-relaxed">
-            Whether you want to connect about software engineering, discuss interesting technical challenges, or enquire about academic tutoring, feel free to reach out.
+            I’m always open to talking through ambiguous challenges, engineering systems, or early-stage product ideas. If you’re based in London, let’s grab a coffee. If not, drop me an email and we can take it from there.
           </p>
         </div>
 
@@ -42,7 +45,7 @@ export default function Contact() {
                 krzysztofwancerski@gmail.com
               </div>
               <p className="text-sm text-zinc-400 leading-relaxed">
-                Direct inbox for software engineering discussions, coffee chats, and academic tutoring enquiries.
+                Direct inbox for technical discussions, coffee chats, and academic tutoring enquiries.
               </p>
             </div>
 
@@ -95,16 +98,15 @@ export default function Contact() {
                 </a>
               </div>
               <p className="text-sm text-zinc-400 mt-4 leading-relaxed">
-                Based in West London, UK. Available for select in-person engineering discussions across London and remote collaboration worldwide.
+                Based in West London, UK. Open to in-person coffee chats across London and remote conversations worldwide.
               </p>
             </div>
 
-            <div className="mt-8 pt-4 border-t border-white/[0.06] flex items-center justify-between text-xs font-mono text-zinc-400">
+            <div className="mt-8 pt-4 border-t border-white/[0.06] flex items-center text-xs font-mono text-zinc-400">
               <span className="flex items-center gap-1.5">
                 <MapPin size={14} />
                 <span>London, UK (West London)</span>
               </span>
-              <span className="text-zinc-500">GMT (UTC+1)</span>
             </div>
           </div>
 

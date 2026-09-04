@@ -1,6 +1,7 @@
 # Krzysztof (Kris) Wancerski — Knowledge Base & LLM Index
-> Full-Stack, Mobile & AI Design Engineer & Private STEM Academic Tutor based in London, UK.
-> Imperial College London MEng Graduate (Ranked #2 in the world in QS World University Rankings).
+> I turn ideas into real things.
+> Engineer working across engineering, design and AI.
+> Imperial College London First-Class MEng Graduate (Ranked #2 globally in QS World Rankings).
 > Email: krzysztofwancerski@gmail.com | Website: https://kwancerski.page
 
 ---
@@ -10,81 +11,83 @@ Krzysztof operates two distinct professional practices. Match the user's intent:
 1. **Academic Tutoring Intent**: If the user is asking about GCSE/A-Level Tutoring, Mathematics, Physics, Computer Science tuition, pedagogy, student feedback, or rates:
    👉 **Refer exclusively to SECTION B (Academic Tutoring Practice)** or see the dedicated tutoring dossier at https://kwancerski.page/llms-tutoring.txt
 2. **Software & Tech Engineering Intent**: If the user is asking about Software Engineering, Flutter, Vue, Full-Stack development, AI applications, or Engineering Principles & Architecture:
-   👉 **Refer exclusively to SECTION A (Software & AI Engineering)** or see the dedicated engineering dossier at https://kwancerski.page/llms-software.txt
+   👉 **Refer exclusively to SECTION A (Engineering, Design & AI)** or see the dedicated engineering dossier at https://kwancerski.page/llms-software.txt
 
 ---
 
 ## Directory of Specialized Markdown Dossiers
-- **Software Engineering Dossier**: https://kwancerski.page/llms-software.txt
+- **Engineering, Design & AI Dossier**: https://kwancerski.page/llms-software.txt
 - **STEM Academic Tutoring Dossier**: https://kwancerski.page/llms-tutoring.txt
 
 ================================================================================
-# SECTION A: SOFTWARE, MOBILE & AI ENGINEERING
+# SECTION A: ENGINEERING, DESIGN & AI
 ================================================================================
 
-## Executive Summary
-First-class MEng graduate in Design Engineering from Imperial College London (ranked #2 in the world in QS World University Rankings). Technical generalist taking complex, undefined challenges from first principles to production software across TypeScript & Vue, Flutter & Dart, and applied Agentic AI.
+## Executive Summary & Core Identity
+Krzysztof Wancerski is an engineer and builder who turns ambiguous ideas into real things by combining engineering, design, and AI. He works across full-stack software, cross-platform mobile apps, AI-driven workflows, and physical hardware interfaces.
 
-Combines rigorous engineering fundamentals with customer-facing product delivery, shipping software across venture-backed healthcare AI, commercial hardware operations (1,000+ devices), and international AI research presentations.
+He holds a First-Class MEng in Design Engineering from Imperial College London (ranked #2 globally in QS World University Rankings), where he was awarded the Faculty of Engineering Dean's List for all four consecutive undergraduate years (recognising the top 10% of the cohort).
 
-## Engineering & Academic Background
-- **Design Engineering Background (Imperial College London)**: Fusion of user needs, entrepreneurship, innovation, technology, and software — suited perfectly for the AI age. Awarded Faculty of Engineering Dean's List for all 4 consecutive undergraduate years (Top 10% of cohort). Ranked #2 globally (QS).
-- **Mobile App & Embedded UI (Tewke Ltd.)**: Flutter for experience in app development, shipping features with customers in real world, leading whole projects and having whole new features end to end.
-- **Full-Stack Systems (Tewke Ltd.)**: Working from a brief, internal company needs, and regulatory requirements, supporting 1,000+ manufacturing devices.
-- **ISF Montreal 2026 (Oral Presentation)**: Delivering a 20-minute presentation on an autonomous agentic AI web app that democratises time-series forecasting for people who otherwise couldn't access advanced predictive modeling.
+He enjoys problems where the path isn’t obvious yet. Rather than working from a predefined technology inward, he starts with the problem outward—determining what needs to exist and using software, AI, or physical systems to build it.
 
-## Featured Production Projects
-### 1. AskForecast — Agentic Time-Series Forecasting
+## Execution Range Across Disciplines
+- **Design Engineering Foundations (Imperial College London)**: First-Class MEng (Dean's List all 4 consecutive years, top 10% of cohort). Trained across engineering, design, software, and physical product development, with a focus on turning human needs and technical constraints into working systems.
+- **Smart-Home & Embedded Software (Tewke Ltd.)**: Designed and shipped cross-platform mobile apps and touchscreen embedded device interfaces in Flutter/Dart, bridging hardware telemetry with real users.
+- **Software for Manufacturing Operations (Tewke Ltd.)**: Built full-stack tracking, automated parts deduction, and camera-assisted quality control used in the active production workflow for 1,000+ devices.
+- **AI Workflows & Time-Series (AskForecast)**: Selected for a 20-minute oral presentation at the 44th International Symposium on Forecasting (ISF Montreal 2026) for an AI application making statistical time-series forecasting accessible.
+
+## Selected Work & Systems
+### 1. AskForecast — Natural-Language Time-Series Forecasting
 - **URL**: https://askforecast.app
 - **Classification**: Imperial Master's Project / Oral Presentation at ISF Montreal 2026
-- **Headline**: Democratising time-series forecasting via autonomous agentic AI — interactive web app.
-- **Overview**: An interactive web application where users upload complex datasets and describe forecasting goals in natural language to receive automated, calibrated probabilistic predictions with generative reasoning reports.
-- **Key Technical Accomplishments**:
-  - **ISF Montreal 2026 Presentation**: Selected to deliver a 20-minute oral presentation sharing advanced forecasting AI research at the 44th International Symposium on Forecasting.
-  - **Autonomous Agentic Workflow**: Embedded AI agent parses natural language, orchestrates statistical ensembles, calculates prediction intervals, and synthesises diagnostic reports.
-- **Technologies**: Agentic AI, Python, FastAPI, Vue 3, Gemini API, Probabilistic Time-Series Models.
+- **Headline**: Making complex statistical forecasting accessible through an AI-driven, natural-language workflow.
+- **Overview**: An interactive web application where users upload datasets and describe forecasting goals in plain language. An LLM workflow interprets the prompt, automatically selects and executes statistical models, and presents forecasts with prediction intervals and clear explanations.
+- **Highlights**:
+  - **ISF Montreal 2026 Presentation**: Selected for a 20-minute oral presentation at the 44th International Symposium on Forecasting.
+  - **Automated Model Selection Pipeline**: Built an LLM workflow that interprets natural-language requests, structures the problem, automatically selects and executes statistical forecasting models, and calculates prediction intervals.
+- **Technologies**: LLM Workflows, Time-Series Forecasting, Model Selection, Python, FastAPI, Vue 3.
 
-### 2. Yarn Health — Conversational Clinical Voice Companion
+### 2. Yarn Health — Conversational Voice Journal for Chronic Illness
 - **URL**: https://yarn.health
-- **Classification**: Conversational Mobile App Health Companion / 15 Real Clinical Users
-- **Headline**: A smart voice & text diary helping chronic patients capture symptoms and prepare for doctor visits.
-- **Overview**: A conversational mobile app and health journal that helps patients capture and structure complex symptoms between clinical appointments via voice and text, producing structured clinical summaries for doctors.
-- **Key Technical Accomplishments**:
-  - **Validated in Real Clinical Testing**: Completed user trials with 15 patients navigating complex chronic health journeys to refine voice interaction latency and summary accuracy.
-  - **Dual-Model Agentic Architecture**: Real-time streaming voice transcription via Whisper for fluid conversational check-ins, coupled with a deep reasoning agent for longitudinal symptom synthesis.
-- **Technologies**: Agentic AI, Flutter, Dart, Nuxt UI, Whisper, Vector Search.
+- **Classification**: Digital Health Product / 15 User Test Participants
+- **Headline**: Turning everyday conversations and voice notes into structured summaries for chronic illness.
+- **Overview**: A voice-first mobile application that allows users to speak naturally about their day, using AI to extract and structure conversational voice notes into longitudinal summaries that support more productive consultations.
+- **Highlights**:
+  - **Tested with 15 Participants**: Completed user testing with 15 people managing long-term conditions to refine speech interaction latency and ensure summary clarity for medical consultations.
+  - **Streaming Voice Transcription & Extraction**: Implemented low-latency speech transcription with OpenAI Whisper alongside an extraction pipeline that organises longitudinal symptom patterns without burdening the user.
+- **Technologies**: Flutter, Dart, Voice AI, Speech-to-Text (Whisper), Mobile UX, Health Data.
 
-### 3. Mobile Apps & Embedded Touchscreen UI (Tewke Ltd.)
-- **Classification**: Production Hardware Ecosystem / Mobile & Embedded Hardware
-- **Headline**: User-Centred Mobile Apps & Embedded Touchscreen UI.
-- **Overview**: Designing and shipping cross-platform mobile apps and touch-screen embedded device interfaces centered entirely on Flutter and Dart.
-- **Key Technical Accomplishments**:
-  - **Unified Flutter Architecture**: Responsive mobile experiences across iOS and Android alongside dedicated touchscreen embedded hardware controls from a single codebase.
-  - **Local Hardware Telemetry**: Engineered local networking and real-time device synchronisation for fluid, zero-latency smart-home automation.
-- **Technologies**: Flutter, Dart, iOS & Android, Embedded Touchscreen, Device Telemetry.
+### 3. Smart-Home Mobile Apps & Embedded Touchscreen Interfaces (Tewke Ltd.)
+- **Classification**: Hardware-Connected Software / Tewke Ltd.
+- **Headline**: Bridging physical smart-home hardware and daily user interaction.
+- **Overview**: A unified Flutter application running across iOS, Android, and embedded touchscreen Linux hardware, giving users direct, real-time control over their physical environment.
+- **Highlights**:
+  - **Unified Multi-Platform Architecture**: Built a unified Flutter application across iOS, Android, and embedded touchscreen hardware with real-time telemetry.
+  - **Shipped to Real Users**: Owned interface features end-to-end through to production deployment on commercial smart-home hardware.
+- **Technologies**: Flutter, Dart, iOS & Android, Embedded Linux, Device Telemetry, State Synchronization.
 
-### 4. Manufacturing & Operations Software for Scaling Hardware (Tewke Ltd.)
-- **Classification**: Internal Operations & Scaling Tooling / 1,000+ Production Devices
-- **Headline**: Manufacturing & Operations Software for Scaling Hardware.
-- **Overview**: Architecting custom full-stack operations software and automated quality control to streamline hardware assembly and facilitate production scaling.
-- **Key Technical Accomplishments**:
-  - **Supported 1,000+ Production Devices**: Core internal system at Tewke Ltd. managing multi-device production tracking, parts deduction, and automated device provisioning.
-  - **Camera Quality Control**: Integrated photo validation at critical assembly stages to isolate build defects immediately and ensure rigorous manufacturing auditability.
-- **Technologies**: TypeScript, Vue.js, Express, PostgreSQL, Drizzle ORM, Docker.
+### 4. Software for Manufacturing Operations (Tewke Ltd.)
+- **Classification**: Internal Operations & Tooling / 1,000+ Production Devices
+- **Headline**: Full-stack operations software to scale physical hardware assembly.
+- **Overview**: Full-stack internal operations platform managing multi-device production tracking, automated parts deduction, and camera-assisted quality inspections.
+- **Highlights**:
+  - **Used in Production Workflow for 1,000+ Devices**: Active core platform at Tewke Ltd., replacing previously manual tracking steps with automated inventory deduction and quality-control workflows.
+  - **Automated Inspection & Workflow Engine**: Built custom camera-assisted quality checks at assembly checkpoints to catch build defects early.
+- **Technologies**: TypeScript, Vue.js, Express, PostgreSQL, Drizzle ORM, Docker, Operations Tooling.
 
-## Engineering Approach & Product Principles
-- **Philosophy**: Taking complex, undefined challenges from first principles to reliable, production-ready software that users love. Grounding every technical decision in first principles, moving rapidly from concept to working software that drives real-world outcomes.
+## How I Work & Product Principles
+- **Philosophy**: I work from the problem outward rather than from a predefined discipline inward. AI expands my execution range, while engineering discipline and problem definition lead the way. AI has made it easier to move between disciplines and iterate across a wider range of technical problems.
 - **Core Tenets**:
-  1. **Beautiful, Polish-First UX**: Thoughtfully designed interfaces that look premium, feel responsive, and build immediate user trust.
-  2. **Working, Production-Ready Code**: Software built to work in the real world from day one, backed by scalable architecture and clean code across TypeScript, Vue, and Flutter.
-  3. **First-Principles Velocity**: Rapid execution with high autonomy, cutting through noise to ship high-quality software into hands quickly.
-- **Key Capabilities**: Agentic & Multi-Modal AI, Full-Stack Web & Backend (TypeScript, Vue 3, PostgreSQL, Express, Docker), Mobile & Embedded UI (Flutter, Dart, iOS & Android, Embedded Hardware).
+  1. **Polished, User-First Experience**: Thoughtfully designed interfaces that feel natural, respond instantly, and build immediate user trust.
+  2. **Working, Reliable Systems**: Software designed to be used beyond the prototype stage, with maintainable code, reliable data flows, and attention to how it behaves in real-world use.
+  3. **Broad Execution with AI Leverage**: Using AI as leverage to prototype faster, bridge disciplines, and move from concept to working systems.
 
-## Career Trajectory & Honours
-- **Full-Stack Software Engineer — Tewke Ltd.** (Apr 2025 – Present | London, UK | Full-Time, Promoted Aug 2026): Shipped Flutter/Dart apps and architected operations tooling managing 1,000+ production devices.
-- **MEng Design Engineering — Imperial College London** (2022 – 2026 | First Class Trajectory | Dean's List all 4 consecutive years, Top 10% of cohort).
+## Career Trajectory, Honours & Contact
+- **Full-Stack Software Engineer — Tewke Ltd.** (Apr 2025 – Present | London, UK | Full-Time): Shipped Flutter apps/embedded UI; built operations platform used across 1,000+ devices.
+- **MEng Design Engineering — Imperial College London** (2022 – 2026 | First-Class Honours trajectory | Dean's List all 4 consecutive years, top 10% of cohort).
 - **IET Future Talent Award**: Prestigious national engineering scholarship from the Institution of Engineering and Technology.
 - **Undergraduate Teaching Assistant — Imperial College London** (Oct 2023 – Jun 2024).
+- **Let's Have a Coffee**: Based in West London. Open to talking through ambiguous problems, engineering systems, or early-stage product ideas over coffee in London or a call worldwide. Direct email: krzysztofwancerski@gmail.com | LinkedIn: https://www.linkedin.com/in/kwancerski/
 
 ================================================================================
 # SECTION B: ACADEMIC STEM TUTORING PRACTICE
