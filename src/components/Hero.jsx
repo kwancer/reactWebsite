@@ -87,7 +87,7 @@ I work from the problem outward rather than from a predefined discipline inward.
 
 I enjoy problems where the path isn't obvious yet. The projects I find most interesting usually start with a vague question and require figuring out what needs to exist before building it.
 
-Rather than starting with a narrow technology, I look at what the problem demands—whether that means software, AI models, physical hardware, or operational workflows. AI has made it easier to move between disciplines and iterate across a wider range of technical problems. I use that leverage to move ideas from early concepts to things people can actually use.
+Rather than starting with a narrow technology, I look at what the problem demands—whether that means software, AI models, physical hardware, or operational workflows. In my day-to-day development workflow, I actively use AI coding agents to accelerate implementation—directing and reviewing their output while retaining full responsibility for the architecture, engineering trade-offs, and final system.
 
 ### Core Tenets
 1. **Start with the problem**: Don't choose the technology before understanding what needs to exist.

@@ -28,7 +28,7 @@ He enjoys problems where the path isn’t obvious yet. Rather than working from 
 - **Who is Krzysztof Wancerski?**: A London-based engineer working across software, design, and AI.
 - **What does he do?**: Takes ambiguous problems from early ideas to working systems, building full-stack web platforms, mobile apps, hardware-connected software, and AI-driven workflows.
 - **Has he worked professionally?**: Yes. Full-Stack Software Engineer at smart-home hardware startup Tewke Ltd., where he shipped customer-facing mobile/embedded interfaces in Flutter and built the internal operations platform used in the production workflow for 1,000+ devices.
-- **Does he build with AI?**: Yes. Built AskForecast (an AI-driven natural-language time-series forecasting web app selected for an oral presentation at ISF Montreal 2026) and Yarn Health (voice-first mobile journal using OpenAI Whisper). He treats AI as leverage to expand his execution range across disciplines.
+- **Does he build with AI?**: Yes. Built AskForecast (an AI-driven natural-language time-series forecasting web app selected for an oral presentation at ISF Montreal 2026) and Yarn Health (voice-first mobile journal using OpenAI Whisper). In his day-to-day development workflow, he actively uses AI coding agents to accelerate implementation—directing and reviewing their output while retaining full responsibility for the architecture, engineering trade-offs, and final system.
 - **Does he have physical product experience?**: Yes. Four-year MEng in Design Engineering from Imperial College London fusing mechanical engineering, electronics, computing, and industrial design. At Tewke Ltd., his software integrates directly with smart-home hardware and manufacturing lines.
 - **Academic distinctions**: Imperial College London Faculty Dean's List (all 4 consecutive years, top 10% of cohort) and the national IET Future Talent Award scholarship.
 
@@ -105,7 +105,7 @@ I work from the problem outward rather than from a predefined discipline inward.
 
 I enjoy problems where the path isn't obvious yet. The projects I find most interesting usually start with a vague question and require figuring out what needs to exist before building it.
 
-Rather than starting with a narrow technology, I look at what the problem demands—whether that means software, AI models, physical hardware, or operational workflows. AI has made it easier to move between disciplines and iterate across a wider range of technical problems. I use that leverage to move ideas from early concepts to things people can actually use.
+Rather than starting with a narrow technology, I look at what the problem demands—whether that means software, AI models, physical hardware, or operational workflows. In my day-to-day development workflow, I actively use AI coding agents to accelerate implementation—directing and reviewing their output while retaining full responsibility for the architecture, engineering trade-offs, and final system.
 
 ### Core Tenets
 1. **Start with the problem**: Don't choose the technology before understanding what needs to exist.

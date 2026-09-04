@@ -76,7 +76,7 @@ He enjoys problems where the path isn’t obvious yet. Rather than working from 
 - **Technologies**: TypeScript, Vue.js, Express, PostgreSQL, Drizzle ORM, Docker, Operations Tooling.
 
 ## How I Work & Product Principles
-- **Philosophy**: I work from the problem outward rather than from a predefined discipline inward. AI expands my execution range, while engineering discipline and problem definition lead the way. AI has made it easier to move between disciplines and iterate across a wider range of technical problems.
+- **Philosophy**: I work from the problem outward rather than from a predefined discipline inward. AI expands my execution range, while engineering discipline and problem definition lead the way. In my day-to-day development workflow, I actively use AI coding agents to accelerate implementation—directing and reviewing their output while retaining full responsibility for the architecture, engineering trade-offs, and final system.
 - **Core Tenets**:
   1. **Start with the problem**: Don't choose the technology before understanding what needs to exist.
   2. **Build things people can actually use**: A prototype is only the beginning; real-world behaviour and reliability matter.
