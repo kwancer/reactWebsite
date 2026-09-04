@@ -13,7 +13,7 @@ export default function Credentials() {
       linkLabel: "Official Faculty Prizes Page",
       badge: "Top 10% Cohort • All 4 Years",
       detail:
-        "Awarded every single academic year of university at Imperial College London (#2 university globally in QS World Rankings). The Dean’s List recognises undergraduate engineers in the top 10% of their cohort who achieved a continuous first-class standard (70%+) across all four years."
+        "Awarded every single academic year of university at Imperial College London. The Dean’s List recognises undergraduate engineers in the top 10% of their cohort who achieved a continuous first-class standard (70%+) across all four years."
     },
     {
       title: "IET Future Talent Award",

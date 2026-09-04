@@ -86,18 +86,18 @@ export default function HowIWork() {
 
               <div className="space-y-3">
                 <div className="p-3.5 rounded bg-zinc-900/60 border border-white/[0.05]">
-                  <span className="font-sans font-semibold text-white block text-sm mb-0.5">1. Polished, User-First Experience</span>
-                  <p className="font-sans text-xs text-zinc-400">Thoughtfully designed interfaces that feel natural, respond instantly, and build immediate user trust.</p>
+                  <span className="font-sans font-semibold text-white block text-sm mb-0.5">1. Start with the problem</span>
+                  <p className="font-sans text-xs text-zinc-400">Don't choose the technology before understanding what needs to exist.</p>
                 </div>
 
                 <div className="p-3.5 rounded bg-zinc-900/60 border border-white/[0.05]">
-                  <span className="font-sans font-semibold text-white block text-sm mb-0.5">2. Working, Reliable Systems</span>
-                  <p className="font-sans text-xs text-zinc-400">Software designed to be used beyond the prototype stage, with maintainable code, reliable data flows, and attention to how it behaves in real-world use.</p>
+                  <span className="font-sans font-semibold text-white block text-sm mb-0.5">2. Build things people can actually use</span>
+                  <p className="font-sans text-xs text-zinc-400">A prototype is only the beginning; real-world behaviour and reliability matter.</p>
                 </div>
 
                 <div className="p-3.5 rounded bg-zinc-900/60 border border-white/[0.05]">
-                  <span className="font-sans font-semibold text-white block text-sm mb-0.5">3. Broad Execution with AI Leverage</span>
-                  <p className="font-sans text-xs text-zinc-400">Using AI as leverage to prototype faster, bridge disciplines, and move from concept to working systems.</p>
+                  <span className="font-sans font-semibold text-white block text-sm mb-0.5">3. Use AI to expand execution</span>
+                  <p className="font-sans text-xs text-zinc-400">AI makes it possible to explore, prototype, and operate across a broader range of problems.</p>
                 </div>
               </div>
             </div>

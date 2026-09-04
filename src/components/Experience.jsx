@@ -72,7 +72,7 @@ export default function Experience() {
             <div className="lg:col-span-3 text-xs font-mono text-zinc-400">
               <span className="text-zinc-200 font-medium block">2022 – 2026</span>
               <span className="text-zinc-500 block mt-0.5">London, UK</span>
-              <span className="text-zinc-400 block mt-1 text-[11px]">Ranked #2 Globally (QS)</span>
+              <span className="text-zinc-400 block mt-1 text-[11px]">First-Class Honours</span>
             </div>
 
             <div className="lg:col-span-9">
@@ -92,7 +92,7 @@ export default function Experience() {
               </div>
 
               <p className="text-sm text-zinc-300 leading-relaxed max-w-[65ch]">
-                First-Class Honours trajectory in Design Engineering at Imperial College London. Awarded the Faculty Dean's List for all 4 consecutive years, recognising students in the top 10% of the cohort. An engineering discipline fusing mechanical engineering, electronics, computer science, and user-centred design to turn complex technical innovations into viable real-world products.
+                Graduated with First-Class Honours in Design Engineering from Imperial College London. Awarded the Faculty Dean's List for all 4 consecutive years, recognising students in the top 10% of the cohort. An engineering discipline fusing mechanical engineering, electronics, computer science, and user-centred design to turn complex technical innovations into viable real-world products.
               </p>
             </div>
           </div>

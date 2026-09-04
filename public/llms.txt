@@ -1,7 +1,7 @@
 # Krzysztof (Kris) Wancerski — Knowledge Base & LLM Index
 > I turn ideas into real things.
-> Engineer working across engineering, design and AI.
-> Imperial College London First-Class MEng Graduate (Ranked #2 globally in QS World Rankings).
+> An engineer working across software, design and AI.
+> Imperial College London First-Class MEng Graduate.
 > Email: krzysztofwancerski@gmail.com | Website: https://kwancerski.page
 
 ---
@@ -24,9 +24,9 @@ Krzysztof operates two distinct professional practices. Match the user's intent:
 ================================================================================
 
 ## Executive Summary & Core Identity
-Krzysztof Wancerski is an engineer and builder who turns ambiguous ideas into real things by combining engineering, design, and AI. He works across full-stack software, cross-platform mobile apps, AI-driven workflows, and physical hardware interfaces.
+Krzysztof Wancerski is an engineer and builder who turns ambiguous ideas into real things by combining software, design, and AI. He works across full-stack software, cross-platform mobile apps, AI-driven workflows, and physical hardware interfaces.
 
-He holds a First-Class MEng in Design Engineering from Imperial College London (ranked #2 globally in QS World University Rankings), where he was awarded the Faculty of Engineering Dean's List for all four consecutive undergraduate years (recognising the top 10% of the cohort).
+He holds a First-Class MEng in Design Engineering from Imperial College London, where he was awarded the Faculty of Engineering Dean's List for all four consecutive undergraduate years (recognising the top 10% of the cohort).
 
 He enjoys problems where the path isn’t obvious yet. Rather than working from a predefined technology inward, he starts with the problem outward—determining what needs to exist and using software, AI, or physical systems to build it.
 
@@ -78,13 +78,13 @@ He enjoys problems where the path isn’t obvious yet. Rather than working from 
 ## How I Work & Product Principles
 - **Philosophy**: I work from the problem outward rather than from a predefined discipline inward. AI expands my execution range, while engineering discipline and problem definition lead the way. AI has made it easier to move between disciplines and iterate across a wider range of technical problems.
 - **Core Tenets**:
-  1. **Polished, User-First Experience**: Thoughtfully designed interfaces that feel natural, respond instantly, and build immediate user trust.
-  2. **Working, Reliable Systems**: Software designed to be used beyond the prototype stage, with maintainable code, reliable data flows, and attention to how it behaves in real-world use.
-  3. **Broad Execution with AI Leverage**: Using AI as leverage to prototype faster, bridge disciplines, and move from concept to working systems.
+  1. **Start with the problem**: Don't choose the technology before understanding what needs to exist.
+  2. **Build things people can actually use**: A prototype is only the beginning; real-world behaviour and reliability matter.
+  3. **Use AI to expand execution**: AI makes it possible to explore, prototype, and operate across a broader range of problems.
 
 ## Career Trajectory, Honours & Contact
 - **Full-Stack Software Engineer — Tewke Ltd.** (Apr 2025 – Present | London, UK | Full-Time): Shipped Flutter apps/embedded UI; built operations platform used across 1,000+ devices.
-- **MEng Design Engineering — Imperial College London** (2022 – 2026 | First-Class Honours trajectory | Dean's List all 4 consecutive years, top 10% of cohort).
+- **MEng Design Engineering — Imperial College London** (2022 – 2026 | First-Class Honours | Dean's List all 4 consecutive years, top 10% of cohort).
 - **IET Future Talent Award**: Prestigious national engineering scholarship from the Institution of Engineering and Technology.
 - **Undergraduate Teaching Assistant — Imperial College London** (Oct 2023 – Jun 2024).
 - **Let's Have a Coffee**: Based in West London. Open to talking through ambiguous problems, engineering systems, or early-stage product ideas over coffee in London or a call worldwide. Direct email: krzysztofwancerski@gmail.com | LinkedIn: https://www.linkedin.com/in/kwancerski/
@@ -106,7 +106,7 @@ He enjoys problems where the path isn’t obvious yet. Rather than working from 
 - **University Admissions Mentorship**: Engineering and Computer Science personal statements and technical interviews for Imperial College London, Oxford, Cambridge, and Russell Group universities.
 
 ## Academic Credentials
-- **Imperial College London MEng Design Engineering** (Ranked #2 globally in QS World Rankings).
+- **Imperial College London MEng Design Engineering**.
 - **4-Year Faculty Dean's List**: Recognised in the top 10% of engineering students at Imperial College London for four consecutive years.
 - **4x A* at A-Level**: Perfect top grades achieved in Mathematics, Physics, Computer Science, and Design & Technology.
 - **Imperial Teaching Assistant**: Hands-on teaching experience facilitating undergraduate engineering computing modules.

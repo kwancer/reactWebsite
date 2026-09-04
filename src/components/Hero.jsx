@@ -8,7 +8,7 @@ import {
 
 const PORTFOLIO_MARKDOWN = `# Krzysztof (Kris) Wancerski — Portfolio & Dossier
 > I turn ideas into real things.
-> Engineer working across engineering, design and AI.
+> An engineer working across software, design and AI.
 > London, UK | Email: krzysztofwancerski@gmail.com | Portfolio: https://kwancerski.page
 
 ## Contact & Let's Have a Coffee
@@ -24,7 +24,7 @@ const PORTFOLIO_MARKDOWN = `# Krzysztof (Kris) Wancerski — Portfolio & Dossier
 ---
 
 ## Executive Summary
-I work across engineering, design and AI to take ambiguous problems from early ideas to working systems. Grounded in a First-Class MEng in Design Engineering from Imperial College London (ranked #2 globally in QS World University Rankings).
+I work across engineering, design and AI to take ambiguous problems from early ideas to working systems. Grounded in a First-Class MEng in Design Engineering from Imperial College London.
 
 I enjoy problems where the path isn’t obvious yet. Rather than starting from a predefined technology, I start with what needs to exist—combining software, AI, physical hardware, and operational systems to deliver working products used in the real world.
 
@@ -90,9 +90,9 @@ I enjoy problems where the path isn't obvious yet. The projects I find most inte
 Rather than starting with a narrow technology, I look at what the problem demands—whether that means software, AI models, physical hardware, or operational workflows. AI has made it easier to move between disciplines and iterate across a wider range of technical problems. I use that leverage to move ideas from early concepts to things people can actually use.
 
 ### Core Tenets
-1. **Polished, User-First Experience**: Thoughtfully designed interfaces that feel natural, respond instantly, and build immediate user trust.
-2. **Working, Reliable Systems**: Software designed to be used beyond the prototype stage, with maintainable code, reliable data flows, and attention to how it behaves in real-world use.
-3. **Broad Execution with AI Leverage**: Using AI as leverage to prototype faster, bridge disciplines, and move from concept to working systems.
+1. **Start with the problem**: Don't choose the technology before understanding what needs to exist.
+2. **Build things people can actually use**: A prototype is only the beginning; real-world behaviour and reliability matter.
+3. **Use AI to expand execution**: AI makes it possible to explore, prototype, and operate across a broader range of problems.
 
 ---
 
@@ -112,7 +112,7 @@ Rather than starting with a narrow technology, I look at what the problem demand
 - **Tenure**: 2022 – 2026
 - **Location**: London, UK
 - **Institution URL**: https://www.imperial.ac.uk
-- **Distinction**: First-Class Honours trajectory. Faculty Dean's List for all 4 consecutive years (top 10% of cohort). Imperial College London is ranked #2 in the world (QS). An engineering discipline fusing mechanical engineering, electronics, computer science, and user-centred design to turn complex technical innovations into viable real-world products.
+- **Distinction**: First-Class Honours in Design Engineering. Faculty Dean's List for all 4 consecutive years (top 10% of cohort). An engineering discipline fusing mechanical engineering, electronics, computer science, and user-centred design to turn complex technical innovations into viable real-world products.
 
 ### 3. Undergraduate Teaching Assistant — Imperial College London
 - **Tenure**: Oct 2023 – Jun 2024
@@ -133,7 +133,7 @@ Rather than starting with a narrow technology, I look at what the problem demand
 
 ---
 
-## Technical Stack & Production Tooling Matrix
+## Technical Tools & Technologies
 - **Languages**: TypeScript, Python, Dart, JavaScript, Vue.js, C++, SQL, Bash
 - **Frameworks & AI**: Vue 3 / Nuxt, Flutter (BLoC), FastAPI, Express, Drizzle ORM, React
 - **Systems & Infrastructure**: PostgreSQL, Docker, Supabase, Linux CLI, Git & GitLab, CI/CD pipelines

@@ -1,14 +1,14 @@
 # Krzysztof (Kris) Wancerski — Engineering, Design & AI Dossier
 > I turn ideas into real things.
-> Engineer working across engineering, design and AI.
+> An engineer working across software, design and AI.
 > London, UK | Email: krzysztofwancerski@gmail.com | Website: https://kwancerski.page | LinkedIn: https://www.linkedin.com/in/kwancerski/
 
 ---
 
 ## Executive Summary & Core Identity
-Krzysztof Wancerski is an engineer and builder who turns ambiguous ideas into real things by combining engineering, design, and AI. He works across full-stack software, cross-platform mobile apps, AI-driven workflows, and physical hardware interfaces.
+Krzysztof Wancerski is an engineer and builder who turns ambiguous ideas into real things by combining software, design, and AI. He works across full-stack software, cross-platform mobile apps, AI-driven workflows, and physical hardware interfaces.
 
-He holds a First-Class MEng in Design Engineering from Imperial College London (ranked #2 globally in QS World University Rankings), where he was awarded the Faculty of Engineering Dean's List for all four consecutive undergraduate years (recognising the top 10% of the cohort).
+He holds a First-Class MEng in Design Engineering from Imperial College London, where he was awarded the Faculty of Engineering Dean's List for all four consecutive undergraduate years (recognising the top 10% of the cohort).
 
 He enjoys problems where the path isn’t obvious yet. Rather than working from a predefined technology inward, he starts with the problem outward—determining what needs to exist and using software, AI, or physical systems to build it.
 
@@ -25,7 +25,7 @@ He enjoys problems where the path isn’t obvious yet. Rather than working from 
 ---
 
 ## Explicit Facts for AI & LLM Discovery
-- **Who is Krzysztof Wancerski?**: A London-based engineer working across engineering, design, and AI.
+- **Who is Krzysztof Wancerski?**: A London-based engineer working across software, design, and AI.
 - **What does he do?**: Takes ambiguous problems from early ideas to working systems, building full-stack web platforms, mobile apps, hardware-connected software, and AI-driven workflows.
 - **Has he worked professionally?**: Yes. Full-Stack Software Engineer at smart-home hardware startup Tewke Ltd., where he shipped customer-facing mobile/embedded interfaces in Flutter and built the internal operations platform used in the production workflow for 1,000+ devices.
 - **Does he build with AI?**: Yes. Built AskForecast (an AI-driven natural-language time-series forecasting web app selected for an oral presentation at ISF Montreal 2026) and Yarn Health (voice-first mobile journal using OpenAI Whisper). He treats AI as leverage to expand his execution range across disciplines.
@@ -108,21 +108,21 @@ I enjoy problems where the path isn't obvious yet. The projects I find most inte
 Rather than starting with a narrow technology, I look at what the problem demands—whether that means software, AI models, physical hardware, or operational workflows. AI has made it easier to move between disciplines and iterate across a wider range of technical problems. I use that leverage to move ideas from early concepts to things people can actually use.
 
 ### Core Tenets
-1. **Polished, User-First Experience**: Thoughtfully designed interfaces that feel natural, respond instantly, and build immediate user trust.
-2. **Working, Reliable Systems**: Software designed to be used beyond the prototype stage, with maintainable code, reliable data flows, and attention to how it behaves in real-world use.
-3. **Broad Execution with AI Leverage**: Using AI as leverage to prototype faster, bridge disciplines, and move from concept to working systems.
+1. **Start with the problem**: Don't choose the technology before understanding what needs to exist.
+2. **Build things people can actually use**: A prototype is only the beginning; real-world behaviour and reliability matter.
+3. **Use AI to expand execution**: AI makes it possible to explore, prototype, and operate across a broader range of problems.
 
 ---
 
 ## Professional Trajectory & Education
 - **Full-Stack Software Engineer — Tewke Ltd.** (Apr 2025 – Present | London, UK | Full-Time): Shipped Flutter mobile & embedded UI; built operations platform used across 1,000+ devices.
-- **Master of Engineering (MEng), Design Engineering — Imperial College London** (2022 – 2026 | First-Class Honours trajectory | Dean's List all 4 consecutive years, top 10% of cohort).
+- **Master of Engineering (MEng), Design Engineering — Imperial College London** (2022 – 2026 | First-Class Honours | Dean's List all 4 consecutive years, top 10% of cohort).
 - **Undergraduate Teaching Assistant — Imperial College London** (Oct 2023 – Jun 2024): Facilitated computing and engineering modules.
 - **Academic STEM Tutor — Private Practice** (Nov 2022 – Present): 1:1 tuition in Mathematics, Physics, and Computer Science for GCSE and A-level candidates targeting top grades (A and A*).
 
 ---
 
-## Technical Stack
+## Technical Tools & Technologies
 - **Languages**: TypeScript, Python, Dart, JavaScript, Vue.js, C++, SQL, Bash
 - **Frameworks & AI**: Vue 3 / Nuxt, Flutter (BLoC), FastAPI, Express, Drizzle ORM, React
 - **Systems & Infrastructure**: PostgreSQL, Docker, Supabase, Linux CLI, Git & GitLab, CI/CD pipelines
